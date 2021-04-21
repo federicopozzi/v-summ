@@ -1,0 +1,2 @@
+(self.webpackChunkv_summ=self.webpackChunkv_summ||[]).push([[678],{704:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var a=t(294);function c(){return a.createElement("div",{className:"container-fluid"},a.createElement("div",{className:"row"},a.createElement("div",{className:"col-6"},"Sito di Antonella")))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-614817c24c26715a4e9a.js.map
