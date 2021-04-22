@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby';
+import Link from 'gatsby-link';
 import { ReactComponent as ALink } from '../assets/svg/arrowLink.svg';
 
 import '../scss/style.scss';
@@ -13,10 +13,12 @@ export default function HeaderHome() {
             <p className="fw-bold fs-2">VSUMM TOOLKIT</p>
 
             <p className="fs-3">
-              <a href="./home" className="linkHead">
+
+              <Link to="/home" className="linkHead">
                 HOME
                 <ALink style={{ transform: 'scale(0.8)' }} />
-              </a>
+              </Link>
+
             </p>
 
           </div>
@@ -30,10 +32,10 @@ export default function HeaderHome() {
               <ALink style={{ transform: 'scale(0.8)' }} />
             </p>
             <p className="fs-3">
-              <a href="./" className="linkHead">
+              <Link to="/" className="linkHead">
                 INDEX
                 <ALink style={{ transform: 'scale(0.8)' }} />
-              </a>
+              </Link>
             </p>
           </div>
         </div>
