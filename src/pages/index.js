@@ -56,7 +56,7 @@ export default function Index() {
         <div className="row border-bottom border-dark">
           <div className="col-3 border-end border-dark d-flex align-items-center">
             <LittleArrow className="frecciaR" />
-            <span className="px-2">{subChapter[0].number}</span>
+            <Link to="/subchapter01?selected=1" className="linkHead"><span className="px-2">{subChapter[0].number}</span></Link>
             <ArrowR className="frecciaR" />
           </div>
           <div className={subChapter[0].backGround}>
@@ -69,7 +69,7 @@ export default function Index() {
         <div className="row border-bottom border-dark">
           <div className="col-3 border-end border-dark d-flex align-items-center">
             <LittleArrow className="frecciaR" />
-            <span className="px-2">{subChapter[1].number}</span>
+            <Link to="/subchapter02?selected=2" className="linkHead"><span className="px-2">{subChapter[1].number}</span></Link>
             <ArrowR className="frecciaR" />
           </div>
           <div className={subChapter[1].backGround}>
@@ -82,7 +82,7 @@ export default function Index() {
 
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
-            <span>{chapter[1].number}</span>
+            <Link to="/chapter02?selected=3" className="linkHead"><span>{chapter[1].number}</span></Link>
             <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[1].backGround}>
