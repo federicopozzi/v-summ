@@ -19,7 +19,15 @@ export default function Index() {
               and an example of the visualization output.
             </p>
           </div>
-          <div className="col-5 aa"><p className="fs-4">ALL these methods has been tested on a set of YouTube videos related to the topic of Amazon Fires. </p></div>
+          <div className="col-5 aa">
+            <p className="fs-4">
+              ALL these methods has been tested on a set of YouTube videos related to the topic of
+              <span className="fw-bold"> AMAZON FIRES</span>
+              {' '}
+              .
+              {' '}
+            </p>
+          </div>
         </div>
       </div>
 
