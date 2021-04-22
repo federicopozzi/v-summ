@@ -9,6 +9,7 @@ $paragraph-margin-bottom: 0;
 $font-family-sans-serif: Banana;
 
 $primary: #DFDFDF;
+$light: #EDEDED;
 
 @import "~bootstrap";
 
@@ -26,4 +27,12 @@ a {
 
 .verde {
   background: radial-gradient(68.9% 68.9% at 50% 50%, rgba(169, 245, 199, 0.8) 11.46%, rgba(242, 242, 242, 0) 100%);
+}
+
+.blu {
+  background: radial-gradient(59.37% 59.37% at 50% 50%, rgba(126, 170, 255, 0.8) 11.46%, rgba(225, 235, 255, 0) 100%);
+}
+
+.rosa {
+  background: radial-gradient(58.03% 58.04% at 50% 50%, rgba(255, 194, 242, 0.8) 11.46%, rgba(255, 241, 252, 0) 100%);
 }

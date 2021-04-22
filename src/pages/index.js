@@ -1,23 +1,10 @@
 import React from 'react';
-import '../scss/style.scss';
 import Header from '../components/Header';
+import { chapter } from '../data/Indice';
+
+import '../scss/style.scss';
 
 export default function Index() {
-  const chapter = [
-    {
-      number: 'CHAPTER 01',
-      title: 'IdentifyingI and visualising the main themes emerging from a video collection of videos.',
-      subtitle: 'ONE COLLECTION OF 50 VIDEOS',
-      backGround: 'col-5 verde border-end border-dark',
-    },
-    {
-      number: 'CHAPTER 01',
-      title: 'IdentifyingI and visualising the main themes emerging from a video collection of videos.',
-      subtitle: 'ONE COLLECTION OF 50 VIDEOS',
-      backGround: 'verde',
-    },
-
-  ];
   return (
     <div className="bg-primary">
       <Header />
@@ -33,10 +20,10 @@ export default function Index() {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="row border-bottom border-dark">
+        <div className="row border-bottom border-dark bg-light">
           <p>THEME ANALYSIS / CH.01 - 02</p>
         </div>
-        <div className="row">
+        <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark">
             {chapter[0].number}
           </div>
@@ -47,6 +34,32 @@ export default function Index() {
             {chapter[0].subtitle}
           </div>
         </div>
+        <div className="row border-bottom border-dark">
+          <div className="col-2 border-end border-dark">
+            {chapter[1].number}
+          </div>
+          <div className={chapter[1].backGround}>
+            {chapter[1].title}
+          </div>
+          <div className="col-5">
+            {chapter[1].subtitle}
+          </div>
+        </div>
+        <div className="row border-bottom border-dark bg-light">
+          <p>HUMANS ANALYSIS / CH.03 - 04</p>
+        </div>
+        <div className="row border-bottom border-dark">
+          <div className="col-2 border-end border-dark">
+            {chapter[2].number}
+          </div>
+          <div className={chapter[2].backGround}>
+            {chapter[2].title}
+          </div>
+          <div className="col-5">
+            {chapter[2].subtitle}
+          </div>
+        </div>
+
       </div>
     </div>
   );
