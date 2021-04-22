@@ -1,5 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
+import { ReactComponent as ArrowD } from '../assets/svg/arrowD.svg';
+import { ReactComponent as ArrowR } from '../assets/svg/arrowR.svg';
+import { ReactComponent as LittleArrow } from '../assets/svg/littleArrow.svg';
 import { chapter, subChapter } from '../data/Indice';
 
 import '../scss/style.scss';
@@ -21,12 +24,17 @@ export default function Index() {
       </div>
 
       <div className="container-fluid fs-5">
-        <div className="row border-bottom border-dark bg-light">
-          <p>THEME ANALYSIS / CH.01 - 02</p>
+        <div className="row border-bottom border-dark bg-light py-3">
+          <p>
+            THEME ANALYSIS / CH.01 - 02
+            <ArrowD style={{ transform: 'scale(0.6)' }} />
+
+          </p>
         </div>
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
             <span>{chapter[0].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[0].backGround}>
             <span>{chapter[0].title}</span>
@@ -38,7 +46,9 @@ export default function Index() {
 
         <div className="row border-bottom border-dark">
           <div className="col-3 border-end border-dark d-flex align-items-center">
-            <span>{subChapter[0].number}</span>
+            <LittleArrow className="frecciaR" />
+            <span className="px-2">{subChapter[0].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={subChapter[0].backGround}>
             <span>{subChapter[0].title}</span>
@@ -49,7 +59,9 @@ export default function Index() {
         </div>
         <div className="row border-bottom border-dark">
           <div className="col-3 border-end border-dark d-flex align-items-center">
-            <span>{subChapter[1].number}</span>
+            <LittleArrow className="frecciaR" />
+            <span className="px-2">{subChapter[1].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={subChapter[1].backGround}>
             <span>{subChapter[1].title}</span>
@@ -62,6 +74,7 @@ export default function Index() {
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
             <span>{chapter[1].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[1].backGround}>
             <span>{chapter[1].title}</span>
@@ -71,13 +84,17 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="row border-bottom border-dark bg-light">
-          <p>HUMANS ANALYSIS / CH.03 - 04</p>
+        <div className="row border-bottom border-dark bg-light py-3">
+          <p>
+            HUMANS ANALYSIS / CH.03 - 04
+            <ArrowD style={{ transform: 'scale(0.6)' }} />
+          </p>
         </div>
 
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
             <span>{chapter[2].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[2].backGround}>
             <span>{chapter[2].title}</span>
@@ -90,6 +107,7 @@ export default function Index() {
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
             <span>{chapter[3].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[3].backGround}>
             <span>{chapter[3].title}</span>
@@ -99,13 +117,17 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="row border-bottom border-dark bg-light">
-          <p>MOOD-VISUAL ANALYSIS / CH. 05 - 06</p>
+        <div className="row border-bottom border-dark bg-light py-3">
+          <p>
+            MOOD-VISUAL ANALYSIS / CH. 05 - 06
+            <ArrowD style={{ transform: 'scale(0.6)' }} />
+          </p>
         </div>
 
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
             <span>{chapter[4].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[4].backGround}>
             <span>{chapter[4].title}</span>
@@ -118,6 +140,7 @@ export default function Index() {
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
             <span>{chapter[5].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[5].backGround}>
             <span>{chapter[5].title}</span>
@@ -129,7 +152,9 @@ export default function Index() {
 
         <div className="row border-bottom border-dark">
           <div className="col-3 border-end border-dark d-flex align-items-center">
-            <span>{subChapter[2].number}</span>
+            <LittleArrow className="frecciaR" />
+            <span className="px-2">{subChapter[2].number}</span>
+            <ArrowR className="frecciaR" />
           </div>
           <div className={subChapter[2].backGround}>
             <span>{subChapter[2].title}</span>
