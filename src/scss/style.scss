@@ -1,4 +1,25 @@
+//Banana
+@font-face {
+  font-family: Banana;
+  src: url('../fonts/banana-regular.woff') format('woff'),
+}
 
+$paragraph-margin-bottom: 0;
 
+$font-family-sans-serif: Banana;
+
+$primary: #DFDFDF;
 
 @import "~bootstrap";
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  background: radial-gradient(59.18% 59.18% at 50% 50%, rgba(169, 245, 199, 0.9) 0%, rgba(255, 194, 242, 0.9) 26.04%, rgba(255, 247, 167, 0.9) 47.4%, rgba(157, 190, 255, 0.9) 65.1%, rgba(255, 161, 161, 0.9) 83.85%, rgba(243, 243, 243, 0.081) 100%);
+}
+
+.linkHead {
+  color:black;
+}

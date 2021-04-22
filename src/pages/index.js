@@ -1,14 +1,11 @@
 import React from 'react';
 import '../scss/style.scss';
+import Header from '../components/Header';
 
 export default function Index() {
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-6">
-          Sito di Antonella
-        </div>
-      </div>
+    <div className="bg-primary">
+      <Header />
     </div>
   );
 }
