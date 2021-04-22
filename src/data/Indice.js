@@ -38,3 +38,24 @@ export const chapter = [
   },
 
 ];
+
+export const subChapter = [
+  {
+    number: 'SUBCHAPTER 01.1',
+    title: 'Analyzing and visualising links between thematic cluster related to different videos.',
+    subtitle: 'ONE COLLECTION OF 50 VIDEOS',
+    backGround: 'col-5 verde border-end border-dark',
+  },
+  {
+    number: 'SUBCHAPTER 01.2',
+    title: 'Analysing the relevance of different themes (in terms of the number of frames) in a collection of videos.\n',
+    subtitle: 'ONE COLLECTION OF 50 VIDEOS',
+    backGround: 'col-5 verde border-end border-dark',
+  },
+  {
+    number: 'SUBCHAPTER 06.1',
+    title: 'How to analyse the way in which different videos belonging to a query describe one or more aspects of the same theme.',
+    subtitle: 'ONE COLLECTION OF 10 VIDEOS',
+    backGround: 'col-5 bianco border-end border-dark',
+  },
+];
