@@ -6,6 +6,7 @@ import { ReactComponent as LittleArrow } from '../assets/svg/littleArrow.svg';
 import { chapter, subChapter } from '../data/Indice';
 
 import '../scss/style.scss';
+import Link from 'gatsby-link';
 
 export default function Index() {
   return (
@@ -41,7 +42,7 @@ export default function Index() {
         </div>
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
-            <span>{chapter[0].number}</span>
+            <Link to="/chapter01?selected=0" className="linkHead"><span>{chapter[0].number}</span></Link>
             <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[0].backGround}>

@@ -10,6 +10,15 @@ $font-family-sans-serif: Banana;
 
 $primary: #DFDFDF;
 $light: #EDEDED;
+$danger: #A9F5C7;
+
+$border-widths: (
+        1: 1px,
+        2: 2px,
+        3: 3px,
+        4: 4px,
+        5: 0.1px
+) !default;
 
 @import "~bootstrap";
 
@@ -49,6 +58,9 @@ a {
   background: radial-gradient(58.03% 58.04% at 50% 50%, rgba(255, 255, 255, 0.8) 0%, rgba(253, 253, 253, 0) 100%);
 }
 
+.verdino {
+  background: radial-gradient(68.9% 68.9% at 50% 50%, rgba(169, 245, 199, 0.8) 20.31%, rgba(242, 242, 242, 0) 100%);
+}
 
 .frecciaR {
   transform: scale(0.6);
