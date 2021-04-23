@@ -1,6 +1,10 @@
+import subCh01 from '../images/ch01/subCh01.png';
+
 export const sottocapitolo1 = {
   primo: 'sottocapitolo1 of videos.',
   rq: 'RQ: Which are the main themes dvsved the Amazon Fires related YouTube videos?',
+  viz: subCh01,
+
 };
 
 export const sottocapitolo2 = {
