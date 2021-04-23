@@ -15,7 +15,7 @@ export default function Ch01Tab() {
   }
 
   return (
-    <div className="container-fluid pt-3">
+    <div className="container-fluid pt-3 bg-primary">
       <div className="row ">
         {
                     tabHead.map(({

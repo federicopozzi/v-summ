@@ -7,13 +7,13 @@ import { ReactComponent as ArrowD } from '../../assets/svg/arrowD.svg';
 
 export default function Ch04Tab() {
   return (
-    <div className="container-fluid pt-3">
+    <div className="container-fluid pt-3 bg-primary">
       <div className="row ">
         {
                     tabHead.map(({
                       title,
                     }, i) => (
-                      <div className="col-3 border-end border-danger border-bottom border-top bg-light py-1" key={i}>
+                      <div className="col-3 border-end border-warning border-bottom border-top bg-light py-1" key={i}>
                         {title}
                         <ArrowD style={{ transform: 'scale(0.6)' }} />
                       </div>

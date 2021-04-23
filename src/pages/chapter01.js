@@ -10,7 +10,7 @@ export default function Chapter01() {
   return (
     <div>
       <HeaderPages />
-      <Ch01Viz className="bg-primary" />
+      <div className="bg-primary"><Ch01Viz /></div>
       <Ch01Tab />
       <Methodology />
     </div>

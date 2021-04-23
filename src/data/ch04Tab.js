@@ -14,7 +14,7 @@ export const tabHead = [
 
 ];
 
-export const tabStyle = 'col-3 border-end border-danger border-bottom border-3 bg-primary py-2';
+export const tabStyle = 'col-3 border-end border-warning border-bottom border-3 bg-primary py-2';
 export const tabStyleWhite = `${tabStyle} bianco`;
 
 export const tabContent = [
