@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../scss/style.scss';
-import { tabContent, tabHead, tabStyle } from '../../data/ch01Tab';
+import {
+  tabContent, tabHead, tabStyle, tabStyleWhite,
+} from '../../data/ch01Tab';
 import { ReactComponent as ArrowD } from '../../assets/svg/arrowD.svg';
 
 export default function Ch01Tab() {
@@ -18,16 +20,35 @@ export default function Ch01Tab() {
                     ))
                 }
         <div className={tabStyle}>
-          {tabContent[0].first}
+          <span className="fw-bold">{tabContent[0].first}</span>
         </div>
         <div className={tabStyle}>
           {tabContent[0].second}
         </div>
-        <div className={tabStyle}>
+        <div className={tabStyleWhite}>
+          <span className="fw-bold">{tabContent[0].thirdBold}</span>
           {tabContent[0].third}
         </div>
-        <div className={tabStyle}>
+        <div className={tabStyleWhite}>
           {tabContent[0].fourth}
+        </div>
+
+        <div className={tabStyle}>
+          <span className="fw-bold">{tabContent[1].first}</span>
+        </div>
+        <div className={tabStyle}>
+          {tabContent[1].second}
+        </div>
+        <div className={tabStyleWhite}>
+          <span className="fw-bold">{tabContent[1].thirdBold}</span>
+          {tabContent[1].third}
+        </div>
+        <div className={tabStyle}>
+          <span className="badge rounded-pill bg-light text-dark mx-2">videoID</span>
+          <span className="badge rounded-pill bg-light text-dark mx-2">videoTitle</span>
+          <span className="badge rounded-pill bg-light text-dark mx-2">publishedAt</span>
+          <span className="badge rounded-pill bg-light text-dark mx-2">viewCount</span>
+          <span className="badge rounded-pill bg-light text-dark mx-2">position</span>
         </div>
       </div>
     </div>
