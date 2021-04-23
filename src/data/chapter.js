@@ -16,3 +16,17 @@ export const capitolo2 = {
   aim: 'aim cap 2',
   output: 'aim cap 2',
 };
+
+export const capitolo3 = {
+  primo: 'capitolo3 of videos.',
+  rq: 'RQ: Which are the main themes dvsved the Amazon Fires related YouTube videos?',
+  aim: 'aim cap 3',
+  output: 'aim cap 3',
+};
+
+export const capitolo4 = {
+  primo: 'capitolo4 of videos.',
+  rq: 'RQ: Which are the main themes dvsved the Amazon Fires related YouTube videos?',
+  aim: 'aim cap 4',
+  output: 'aim cap 4',
+};
