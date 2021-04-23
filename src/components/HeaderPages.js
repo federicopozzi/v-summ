@@ -14,17 +14,19 @@ export default function HeaderPages() {
   }
   const headerPages = data[index];
 
-  const { primo, rq } = headerPages;
+  const {
+    primo, colore, coloreBordo, rq,
+  } = headerPages;
 
   return (
     <div>
       <div className="container-fluid bg-primary">
-        <div className="row border-bottom border-1 border-danger">
-          <div className="col-11 fs-5 border-end border-danger border-2">
-            <div className="row border-bottom border-danger py-3 px-3 border-2">
+        <div className={`row border-bottom border-1 ${coloreBordo}`}>
+          <div className={`col-11 fs-5 border-end border-2 ${coloreBordo}`}>
+            <div className={`row border-bottom py-3 px-3 border-2 ${coloreBordo}`}>
               <p>{primo}</p>
             </div>
-            <div className="row border-danger py-3 px-3 verdino">
+            <div className={colore}>
               <p className="fw-bold">{rq}</p>
             </div>
           </div>
@@ -33,7 +35,7 @@ export default function HeaderPages() {
           </div>
         </div>
       </div>
-      <div className="row border-bottom border-danger border-2 bg-light px-3 py-1">
+      <div className={`row border-bottom border-2 bg-light px-3 py-1 ${coloreBordo}`}>
         <p>
           VISUALIZATION
           <ArrowD style={{ transform: 'scale(0.6)' }} />

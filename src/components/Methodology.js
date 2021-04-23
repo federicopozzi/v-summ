@@ -12,10 +12,10 @@ export default function Methodology() {
   }
   const methodology = data[index];
 
-  const { aim, output } = methodology;
+  const { aim, output, coloreBordo } = methodology;
   return (
     <div className="container-fluid">
-      <div className="row border-end border-danger border-bottom border-top bg-light py-1">
+      <div className={`row border-end border-bottom border-top bg-light py-1 ${coloreBordo}`}>
         <p>
           METODOLOGY
           <ArrowD style={{ transform: 'scale(0.6)' }} />
