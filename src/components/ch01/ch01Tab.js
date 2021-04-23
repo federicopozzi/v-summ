@@ -6,6 +6,11 @@ import {
 import { ReactComponent as ArrowD } from '../../assets/svg/arrowD.svg';
 
 export default function Ch01Tab() {
+  const params = new URLSearchParams(window.location.search);
+  let campoDiverso = 'campo giusto';
+  if (params.get('selected') === '2') {
+    campoDiverso = 'campo diverso';
+  }
   return (
     <div className="container-fluid pt-3">
       <div className="row ">
