@@ -69,7 +69,7 @@ export default function Index() {
         <div className="row border-bottom border-dark">
           <div className="col-3 border-end border-dark d-flex align-items-center">
             <LittleArrow className="frecciaR" />
-            <Link to="/subchapter02?selected=2" className="linkHead"><span className="px-2">{subChapter[1].number}</span></Link>
+            <Link to="/chapter01?selected=2" className="linkHead"><span className="px-2">{subChapter[1].number}</span></Link>
             <ArrowR className="frecciaR" />
           </div>
           <div className={subChapter[1].backGround}>
