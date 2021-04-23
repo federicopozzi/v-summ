@@ -1,4 +1,5 @@
 import ch01 from '../images/ch01/ch01.png';
+import ch04 from '../images/ch04/ch04.png';
 
 export const capitolo1 = {
   primo: 'IdentifyingI and visualising the main themes emerging from a video collection of videos.',
@@ -27,6 +28,7 @@ export const capitolo3 = {
 export const capitolo4 = {
   primo: 'capitolo4 of videos.',
   rq: 'RQ: Which are the main themes dvsved the Amazon Fires related YouTube videos?',
+  viz: ch04,
   aim: 'aim cap 4',
   output: 'aim cap 4',
 };
