@@ -13,5 +13,6 @@ export const capitolo1 = {
 export const capitolo2 = {
   primo: 'capitolo2 of videos.',
   rq: 'RQ: Which are the main themes dvsved the Amazon Fires related YouTube videos?',
-
+  aim: 'aim cap 2',
+  output: 'aim cap 2',
 };
