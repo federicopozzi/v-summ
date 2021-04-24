@@ -14,23 +14,48 @@ export const tabHead = [
 
 ];
 
-export const tabStyle = 'col-3 border-end border-danger border-bottom border-3 bg-primary py-2';
-export const tabStyleWhite = `${tabStyle} bianco`;
-
-export const tabContent = [
+export const steps = [
   {
-    first: 'SCRAPING',
-    second: 'GET A LIST OF VIDEOS FOR EACH CHOSEN QUERY AND SELECTED TIME-FRAME',
-    thirdBold: 'Youtube Data Tools ⟶ ',
-    third: '[Video List]',
-    fourth: '“Amazon Fires” - “Pray for Amazonia”',
+    step: 'SCRAPING1',
   },
   {
-    first: 'DATA EXPLORATION',
-    second: 'OPEN THE YOUTUBE DATA TOOL (YDT) CSV DOWNLOADED AND EXPLORE THE DATA',
-    thirdBold: 'Excel ⟶ ',
-    third: '[Import Data]',
-    fourth: '',
+    step: 'DATA EXPLORATION',
+  },
+  {
+    step: 'DATA PREPARATION',
+  },
+];
+
+export const whats = [
+  {
+    what: '1GET A LIST OF VIDEOS FOR EACH CHOSEN QUERY AND SELECTED TIME-FRAME',
+  },
+  {
+    what: 'Open the YOutube Data tool(YDT) CSV DOWNLOADED and explore the data',
+  },
+  {
+    what: 'filter the list by order of views to take the first 10 videos as samples for each query(Amazon Fires-PrayForAmazonia)',
+  },
+];
+
+export const tools = [
+  {
+    tool: '1Youtube',
+    arrow: ' ⟶ ',
+    quadre: '[Video L]',
+    sfondo: '',
+  },
+  {
+    tool: 'Youtube',
+    arrow: ' ⟶ ',
+    quadre: '[Video L]',
+    sfondo: 'bianco',
+  },
+  {
+    tool: 'Youtube',
+    arrow: ' ⟶ ',
+    quadre: '[Video L]',
+    sfondo: 'bianco',
   },
 
 ];

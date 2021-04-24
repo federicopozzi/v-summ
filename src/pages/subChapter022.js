@@ -50,44 +50,42 @@ export default function SubChapter02() {
       <div className="container-fluid">
         <div className="row">
           {
-                        tabHead.map(({
-                          title,
-                        }, i) => (
-                          <div className="col-3 border-end border-secondary border-bottom border-top bg-light py-1" key={i}>
-                            {title}
-                            <ArrowD style={{ transform: 'scale(0.6)' }} />
-                          </div>
-                        ))
-                    }
+            tabHead.map(({
+              title,
+            }, i) => (
+              <div className="col-3 border-end border-secondary border-bottom border-top bg-light py-1" key={i}>
+                {title}
+                <ArrowD style={{ transform: 'scale(0.6)' }} />
+              </div>
+            ))
+          }
         </div>
-
         <Ch02Tab />
-
-        <div className="container-fluid">
-          <div className={`row border-end border-bottom border-top bg-light py-1 ${coloreBordo}`}>
-            <p>
-              METODOLOGY
-              <ArrowD style={{ transform: 'scale(0.6)' }} />
+      </div>
+      <div className="container-fluid">
+        <div className={`row border-end border-bottom border-top bg-light py-1 ${coloreBordo}`}>
+          <p>
+            METODOLOGY
+            <ArrowD style={{ transform: 'scale(0.6)' }} />
+          </p>
+        </div>
+        <div className="row bg-primary py-4">
+          <div className="col-2">
+            <span className="fs-2 text-decoration-underline">aim</span>
+          </div>
+          <div className="col-10">
+            <p className="fs-2">
+              {aim}
             </p>
           </div>
-          <div className="row bg-primary py-4">
-            <div className="col-2">
-              <span className="fs-2 text-decoration-underline">aim</span>
-            </div>
-            <div className="col-10">
-              <p className="fs-2">
-                {aim}
-              </p>
-            </div>
-            <div className="col-2">
-              <span className="fs-2 text-decoration-underline">output</span>
-            </div>
-            <div className="col-10">
-              <p className="fs-2">
-                {' '}
-                {output}
-              </p>
-            </div>
+          <div className="col-2">
+            <span className="fs-2 text-decoration-underline">output</span>
+          </div>
+          <div className="col-10">
+            <p className="fs-2">
+              {' '}
+              {output}
+            </p>
           </div>
         </div>
       </div>

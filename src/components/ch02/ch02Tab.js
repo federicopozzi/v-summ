@@ -10,7 +10,7 @@ export default function Ch02Tab() {
                     step,
                   }, i) => (
                     <div style={{ height: '5rem' }} className="col-12 border-end border-secondary border-bottom border-top bg-primary px-2" key={i}>
-                      {step}
+                      <span className="fw-bold">{step}</span>
                     </div>
                   ))
               }
@@ -32,7 +32,7 @@ export default function Ch02Tab() {
                     tool, sfondo, arrow, quadre,
                   }, i) => (
                     <div style={{ height: '5rem' }} className={`col-12 border-end border-secondary border-bottom border-top bg-primary px-2 ${sfondo}`} key={i}>
-                      <strong>{tool}</strong>
+                      <span className="fw-bold">{tool}</span>
                       {arrow}
                       {quadre}
                     </div>

@@ -7,6 +7,7 @@ import { ReactComponent as ArrowD } from '../assets/svg/arrowD.svg';
 
 import { tabHead } from '../data/ch01Tab';
 import SubCh021Viz from '../components/ch02/subCh021Viz';
+import Ch02Tab from '../components/ch02/ch02Tab';
 
 export default function SubChapter021() {
   const headerPages = data[3];
@@ -59,6 +60,7 @@ export default function SubChapter021() {
                         ))
                     }
         </div>
+        <Ch02Tab />
       </div>
       <div className="container-fluid">
         <div className={`row border-end border-bottom border-top bg-light py-1 ${coloreBordo}`}>
