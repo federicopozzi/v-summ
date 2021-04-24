@@ -24,14 +24,17 @@ export const amazonFires = [
   {
     src: amazon1,
     id: 'video#1',
+    link: '/subChapter02?selected=0',
   },
   {
     src: amazon2,
     id: 'video#2',
+    link: '/subChapter02?selected=1',
   },
   {
     src: amazon3,
     id: 'video#3',
+    link: '/subChapter02?selected=2',
   },
   {
     src: amazon4,
