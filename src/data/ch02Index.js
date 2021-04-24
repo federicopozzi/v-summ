@@ -39,30 +39,37 @@ export const amazonFires = [
   {
     src: amazon4,
     id: 'video#4',
+    link: '/subChapter02?selected=3',
   },
   {
     src: amazon5,
     id: 'video#5',
+    link: '/subChapter02?selected=4',
   },
   {
     src: amazon6,
     id: 'video#6',
+    link: '/subChapter02?selected=5',
   },
   {
     src: amazon7,
     id: 'video#7',
+    link: '/subChapter02?selected=6',
   },
   {
     src: amazon8,
     id: 'video#8',
+    link: '/subChapter02?selected=7',
   },
   {
     src: amazon9,
     id: 'video#9',
+    link: '/subChapter02?selected=8',
   },
   {
     src: amazon10,
     id: 'video#10',
+    link: '/subChapter02?selected=9',
   },
 ];
 
@@ -70,41 +77,51 @@ export const prayAmazon = [
   {
     src: prayAmazon1,
     id: 'video#1',
+    link: '/subChapter021?selected=0',
   },
   {
     src: prayAmazon2,
     id: 'video#2',
+    link: '/subChapter021?selected=1',
   },
   {
     src: prayAmazon3,
     id: 'video#3',
+    link: '/subChapter021?selected=2',
   },
   {
     src: prayAmazon4,
     id: 'video#4',
+    link: '/subChapter021?selected=3',
   },
   {
     src: prayAmazon5,
     id: 'video#5',
+    link: '/subChapter021?selected=4',
   },
   {
     src: prayAmazon6,
     id: 'video#6',
+    link: '/subChapter021?selected=5',
   },
   {
     src: prayAmazon7,
     id: 'video#7',
+    link: '/subChapter021?selected=6',
   },
   {
     src: prayAmazon8,
     id: 'video#8',
+    link: '/subChapter021?selected=7',
   },
   {
     src: prayAmazon9,
     id: 'video#9',
+    link: '/subChapter021?selected=8',
   },
   {
     src: prayAmazon10,
     id: 'video#10',
+    link: '/subChapter021?selected=9',
   },
 ];

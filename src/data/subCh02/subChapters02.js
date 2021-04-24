@@ -16,3 +16,59 @@ export const subChapter02 = {
   legend: legendAmazonFires2,
 
 };
+
+export const subChapter03 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};
+
+export const subChapter04 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};
+
+export const subChapter05 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};
+
+export const subChapter06 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};
+
+export const subChapter07 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};
+
+export const subChapter08 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};
+
+export const subChapter09 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};
+
+export const subChapter10 = {
+  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  img: amazonFires2,
+  legend: legendAmazonFires2,
+
+};

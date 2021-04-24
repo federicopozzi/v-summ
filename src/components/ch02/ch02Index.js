@@ -56,17 +56,19 @@ export default function Ch02Index() {
       <div className="row pt-2 d-flex align-items-center justify-content-between">
         {
                     prayAmazon.map(({
-                      src, id,
+                      src, id, link,
                     }, i) => (
                       <div className="col-1">
-                        <img
-                          src={src}
-                          className="img-fluid"
-                          alt="Responsive image"
-                          height="100"
-                        />
+                        <Link to={link} className="linkHead">
+                          <img
+                            src={src}
+                            className="img-fluid"
+                            alt="Responsive image"
+                            height="100"
+                          />
 
-                        <p className="text-center">{id}</p>
+                          <p className="text-center">{id}</p>
+                        </Link>
                       </div>
                     ))
                 }

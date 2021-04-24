@@ -1,71 +1,72 @@
 import React from 'react';
 import '../../scss/style.scss';
 import Link from 'gatsby-link';
-import subCh02 from '../../data/subCh02';
+import subCh021 from '../../data/subCh021';
 
 function ColonnaVideo() {
   const titoli = [
     {
-      testo: 'Entenda o Desmatamento na AMAZÔNIA de um \n' + 'jEito SIMPLES',
-      link: '/subChapter02?selected=0',
+      testo: ' o Desmatamento na AMAZÔNIA de um \n' + 'jEito SIMPLES',
+      link: '/subChapter021?selected=0',
     },
     {
       testo: 'Amazon rainforest on fire Lungs of the world in flame Nightline',
-      link: '/subChapter02?selected=1',
+      link: '/subChapter021?selected=1',
     },
     {
       testo: 'Amazon Forest fire | Odhygyan Scienze ',
-      link: '/subChapter02?selected=2',
+      link: '/subChapter021?selected=2',
     },
     {
       testo: 'Amazon Forest Fire / What it tell us about deforestation ',
-      link: '/subChapter02?selected=3',
+      link: '/subChapter021?selected=3',
     },
     {
       testo: 'Amazon forest / Drone footage reveals after math Amazon Fires',
-      link: '/subChapter02?selected=4',
+      link: '/subChapter021?selected=4',
     },
     {
       testo: 'Why the amazon fires are such a big deal',
-      link: '/subChapter02?selected=5',
+      link: '/subChapter021?selected=5',
     },
     {
       testo: 'India\'s Secret Amazon Fire | Tamil',
-      link: '/subChapter02?selected=6',
+      link: '/subChapter021?selected=6',
     },
     {
       testo: 'The Amazon Rainforest is On Fire & Nobody Cares',
-      link: '/subChapter02?selected=7',
+      link: '/subChapter021?selected=7',
     },
     {
       testo: 'Who is Responsible for Amazon Forest Fire? | Tamil | LMES',
-      link: '/subChapter02?selected=8',
+      link: '/subChapter021?selected=8',
     },
     {
       testo: 'Flying above the Amazon fires: \'All you can see \n'
-          + 'is death\'',
-      link: '/subChapter02?selected=9',
+                + 'is death\'',
+      link: '/subChapter021?selected=9',
     },
   ];
+
   return (
     <div className="bg-primary">
       {
-        titoli.map(({
-          testo, link,
-        }, i) => (
-          <Link to={link} className="linkHead">
-            <div className="col-12 border-bottom border-light border-2 py-2 px-2">
-              {testo}
-            </div>
-          </Link>
-        ))
-      }
+                titoli.map(({
+                  testo, link,
+                }, i) => (
+                  <Link to={link} className="linkHead">
+                    <div className="col-12 border-bottom border-light border-2 py-2 px-2">
+                      {testo}
+                    </div>
+                  </Link>
+                ))
+            }
 
     </div>
   );
 }
 
-export default function SubCh02Viz() {
+export default function SubCh021Viz() {
   let index = 0;
   if (typeof window !== 'undefined') {
     const params = new URLSearchParams(window.location.search);
@@ -73,7 +74,7 @@ export default function SubCh02Viz() {
     index = typeof params.get('selected') !== 'undefined' ? params.get('selected') : 0;
   }
 
-  const dati = subCh02[index];
+  const dati = subCh021[index];
   const { titolo, img, legend } = dati;
   return (
     <div className="container-fluid bg-primary">
