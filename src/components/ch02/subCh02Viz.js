@@ -80,7 +80,7 @@ export default function SubCh02Viz() {
     <div className="container-fluid bg-primary">
       <div className="row">
         <div className="col-3 border-bottom border-end border-light border-2 py-2">
-          <Link to="/subChapter022">
+          <Link to="/chapter02?selected=3">
             <span className="badge rounded-pill bg-light text-dark">ZOOM OUT</span>
           </Link>
         </div>
