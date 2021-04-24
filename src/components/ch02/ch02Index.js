@@ -5,7 +5,7 @@ import { amazonFires, prayAmazon } from '../../data/ch02Index';
 
 export default function Ch02Index() {
   return (
-    <div className="container-fluid bg-primary">
+    <div className="container-fluid bg-primary pt-3">
       <div className="row">
         <div className="col-2">
           <p>CLICK ON EACH GRID TO EXPLORE THE SINGLE VIDEO</p>
