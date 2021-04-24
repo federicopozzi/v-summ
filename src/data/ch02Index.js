@@ -24,27 +24,27 @@ export const amazonFires = [
   {
     src: amazon1,
     id: 'video#1',
-    link: '/subChapter02?selected=0',
+    link: '/subChapter022?selected=0',
   },
   {
     src: amazon2,
     id: 'video#2',
-    link: '/subChapter02?selected=1',
+    link: '/subChapter022?selected=1',
   },
   {
     src: amazon3,
     id: 'video#3',
-    link: '/subChapter02?selected=2',
+    link: '/subChapter022?selected=2',
   },
   {
     src: amazon4,
     id: 'video#4',
-    link: '/subChapter02?selected=3',
+    link: '/subChapter022?selected=3',
   },
   {
     src: amazon5,
     id: 'video#5',
-    link: '/subChapter02?selected=4',
+    link: '/subChapter022?selected=4',
   },
   {
     src: amazon6,
@@ -54,22 +54,22 @@ export const amazonFires = [
   {
     src: amazon7,
     id: 'video#7',
-    link: '/subChapter02?selected=6',
+    link: '/subChapter022?selected=6',
   },
   {
     src: amazon8,
     id: 'video#8',
-    link: '/subChapter02?selected=7',
+    link: '/subChapter022?selected=7',
   },
   {
     src: amazon9,
     id: 'video#9',
-    link: '/subChapter02?selected=8',
+    link: '/subChapter022?selected=8',
   },
   {
     src: amazon10,
     id: 'video#10',
-    link: '/subChapter02?selected=9',
+    link: '/subChapter022?selected=9',
   },
 ];
 

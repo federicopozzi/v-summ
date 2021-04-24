@@ -7,44 +7,44 @@ function ColonnaVideo() {
   const titoli = [
     {
       testo: 'Entenda o Desmatamento na AMAZÔNIA de um \n' + 'jEito SIMPLES',
-      link: '/subChapter02?selected=0',
+      link: '/subChapter022?selected=0',
     },
     {
       testo: 'Amazon rainforest on fire Lungs of the world in flame Nightline',
-      link: '/subChapter02?selected=1',
+      link: '/subChapter022?selected=1',
     },
     {
       testo: 'Amazon Forest fire | Odhygyan Scienze ',
-      link: '/subChapter02?selected=2',
+      link: '/subChapter022?selected=2',
     },
     {
       testo: 'Amazon Forest Fire / What it tell us about deforestation ',
-      link: '/subChapter02?selected=3',
+      link: '/subChapter022?selected=3',
     },
     {
       testo: 'Amazon forest / Drone footage reveals after math Amazon Fires',
-      link: '/subChapter02?selected=4',
+      link: '/subChapter022?selected=4',
     },
     {
       testo: 'Why the amazon fires are such a big deal',
-      link: '/subChapter02?selected=5',
+      link: '/subChapter022?selected=5',
     },
     {
       testo: 'India\'s Secret Amazon Fire | Tamil',
-      link: '/subChapter02?selected=6',
+      link: '/subChapter022?selected=6',
     },
     {
       testo: 'The Amazon Rainforest is On Fire & Nobody Cares',
-      link: '/subChapter02?selected=7',
+      link: '/subChapter022?selected=7',
     },
     {
       testo: 'Who is Responsible for Amazon Forest Fire? | Tamil | LMES',
-      link: '/subChapter02?selected=8',
+      link: '/subChapter022?selected=8',
     },
     {
       testo: 'Flying above the Amazon fires: \'All you can see \n'
           + 'is death\'',
-      link: '/subChapter02?selected=9',
+      link: '/subChapter022?selected=9',
     },
   ];
   return (
