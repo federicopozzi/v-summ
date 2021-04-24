@@ -2,6 +2,7 @@ import React from 'react';
 import '../../scss/style.scss';
 import Link from 'gatsby-link';
 import subCh021 from '../../data/subCh021';
+import { ReactComponent as ArrowDown } from '../../assets/svg/arrowDown.svg';
 
 function ColonnaVideo() {
   const titoli = [
@@ -79,10 +80,12 @@ export default function SubCh021Viz() {
   return (
     <div className="container-fluid bg-primary">
       <div className="row">
-        <div className="col-3 border-bottom border-end border-light border-2">
-          zoom
+        <div className="col-3 border-bottom border-end border-light border-2 py-2">
+          <Link to="/subChapter021">
+            <span className="badge rounded-pill bg-light text-dark">ZOOM OUT</span>
+          </Link>
         </div>
-        <div className="col-9 border-bottom border-light border-2">
+        <div className="col-9 border-bottom border-light border-2 d-flex align-items-center">
           {titolo}
         </div>
       </div>
@@ -102,13 +105,20 @@ export default function SubCh021Viz() {
         </div>
         {/*   how to read */}
         <div className="col-3 padding">
-          <div className="col-12 border-bottom border-light border-2 px-2">how to read</div>
-          <img
-            src={legend}
-            className="img-fluid"
-            alt="Responsive image"
-            height="100"
-          />
+          <div className="col-12 border-bottom border-light border-2 px-2 py-3">
+            <ArrowDown style={{ transform: 'scale(0.6)' }} />
+            How to read
+          </div>
+          <div className="col-12 py-2">
+            <span className="px-2">colour = thematic cluster</span>
+            <img
+              src={legend}
+              className="img-fluid"
+              alt="Responsive image"
+              height="100"
+            />
+          </div>
+
         </div>
       </div>
     </div>
