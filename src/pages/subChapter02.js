@@ -1,27 +1,19 @@
 import React from 'react';
-import HeaderPages from '../components/HeaderPages';
 import '../scss/style.scss';
-import data from '../data';
 import Link from 'gatsby-link';
+import data from '../data';
 import { ReactComponent as X } from '../assets/svg/x.svg';
 import { ReactComponent as ArrowD } from '../assets/svg/arrowD.svg';
-import subCh02 from '../data/subCh02';
+
+import { tabHead } from '../data/ch01Tab';
+import SubCh02Viz from '../components/ch02/subCh02Viz';
 
 export default function SubChapter02() {
-  let index = 0;
-  if (typeof window !== 'undefined') {
-    const params = new URLSearchParams(window.location.search);
-
-    index = typeof params.get('selected') !== 'undefined' ? params.get('selected') : 0;
-  }
-
-  const dati = subCh02[index];
-
   const headerPages = data[3];
   const {
     primo, colore, coloreBordo, rq,
   } = headerPages;
-  console.log(dati);
+
   return (
     <div>
       <div>
@@ -48,6 +40,22 @@ export default function SubChapter02() {
           </p>
         </div>
 
+      </div>
+      <SubCh02Viz />
+
+      <div className="container-fluid">
+        <div className="row">
+          {
+            tabHead.map(({
+              title,
+            }, i) => (
+              <div className="col-3 border-end border-secondary border-bottom border-top bg-light py-1" key={i}>
+                {title}
+                <ArrowD style={{ transform: 'scale(0.6)' }} />
+              </div>
+            ))
+          }
+        </div>
       </div>
     </div>
   );
