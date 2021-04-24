@@ -10,6 +10,7 @@ export default function Chapter04() {
     <div>
       <HeaderPages />
       <div className="bg-primary"><Ch01Viz /></div>
+
       <Ch04Tab />
       <Methodology />
     </div>

@@ -1,54 +1,64 @@
 import React from 'react';
-import '../../scss/style.scss';
-import {
-  tabContent, tabHead, tabStyle, tabStyleWhite,
-} from '../../data/ch04Tab';
+import { steps, tools, whats } from '../../data/ch04Tab';
+import { tabHead } from '../../data/ch01Tab';
 import { ReactComponent as ArrowD } from '../../assets/svg/arrowD.svg';
 
 export default function Ch04Tab() {
   return (
-    <div className="container-fluid pt-3 bg-primary">
+    <div className="container-fluid">
       <div className="row ">
         {
-                    tabHead.map(({
-                      title,
-                    }, i) => (
-                      <div className="col-3 border-end border-warning border-bottom border-top bg-light py-1" key={i}>
-                        {title}
-                        <ArrowD style={{ transform: 'scale(0.6)' }} />
-                      </div>
-                    ))
-                }
-        <div className={tabStyle}>
-          <span className="fw-bold">{tabContent[0].first}</span>
+          tabHead.map(({
+            title,
+          }, i) => (
+            <div className="col-3 border-end border-warning border-bottom border-top bg-light py-1" key={i}>
+              {title}
+              <ArrowD style={{ transform: 'scale(0.6)' }} />
+            </div>
+          ))
+        }
+      </div>
+      <div className="row ">
+        <div className="col-3 padding">
+          {
+            steps.map(({
+              step,
+            }, i) => (
+              <div style={{ height: '5rem' }} className="col-12 border-end border-warning border-bottom border-top bg-primary px-2" key={i}>
+                <span className="fw-bold">{step}</span>
+              </div>
+            ))
+          }
         </div>
-        <div className={tabStyle}>
-          {tabContent[0].second}
+        <div className="col-3 padding">
+          {
+            whats.map(({
+              what,
+            }, i) => (
+              <div style={{ height: '5rem' }} className="col-12 border-end border-warning border-bottom border-top bg-primary px-2" key={i}>
+                {what}
+              </div>
+            ))
+          }
         </div>
-        <div className={tabStyleWhite}>
-          <span className="fw-bold">{tabContent[0].thirdBold}</span>
-          {tabContent[0].third}
+        <div className="col-3 padding">
+          {
+            tools.map(({
+              tool, sfondo, arrow, quadre,
+            }, i) => (
+              <div style={{ height: '5rem' }} className={`col-12 border-end border-warning border-bottom border-top bg-primary px-2 ${sfondo}`} key={i}>
+                <span className="fw-bold">{tool}</span>
+                {arrow}
+                {quadre}
+              </div>
+            ))
+          }
         </div>
-        <div className={tabStyleWhite}>
-          {tabContent[0].fourth}
-        </div>
+        <div className="col-3 padding">
 
-        <div className={tabStyle}>
-          <span className="fw-bold">{tabContent[1].first}</span>
-        </div>
-        <div className={tabStyle}>
-          {tabContent[1].second}
-        </div>
-        <div className={tabStyleWhite}>
-          <span className="fw-bold">{tabContent[1].thirdBold}</span>
-          {tabContent[1].third}
-        </div>
-        <div className={tabStyle}>
-          <span className="badge rounded-pill bg-light text-dark mx-2">videoID</span>
-          <span className="badge rounded-pill bg-light text-dark mx-2">videoTitle</span>
-          <span className="badge rounded-pill bg-light text-dark mx-2">publishedAt</span>
-          <span className="badge rounded-pill bg-light text-dark mx-2">viewCount</span>
-          <span className="badge rounded-pill bg-light text-dark mx-2">position</span>
+          <div style={{ height: '5rem' }} className="col-12 border-end border-warning border-bottom border-top bg-primary px-2">
+            a
+          </div>
         </div>
       </div>
     </div>
