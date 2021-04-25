@@ -27,63 +27,63 @@ export const subChapter01 = {
 };
 
 export const subChapter02 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: AMAZON RAINFOREST ON FIRE LUNGS OF THE WORLDS IN FLAMENIGHTLINE',
   img: amazonFires2,
   legend: legendAmazonFires2,
 
 };
 
 export const subChapter03 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: AMAZON FOREST FIRE | ODHYGYAN SCIENZE',
   img: amazonFires3,
   legend: legendAmazonFires3,
 
 };
 
 export const subChapter04 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: AMAZON FOREST FIRE: WHAT IT TELLS US ABOUT DEFORESTATION',
   img: amazonFires4,
   legend: legendAmazonFires4,
 
 };
 
 export const subChapter05 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: DRONE FOOTAGE REVEALS AFTER MATH OF AMAZONFIRES',
   img: amazonFires5,
   legend: legendAmazonFires5,
 
 };
 
 export const subChapter06 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: WHY THE AMAZON FIRES ARE SUCH A BIG DEAL',
   img: amazonFires6,
   legend: legendAmazonFires6,
 
 };
 
 export const subChapter07 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: INDIA\'S SECRET AMAZON FIRE | TAMIL',
   img: amazonFires7,
   legend: legendAmazonFires7,
 
 };
 
 export const subChapter08 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: THE AMAZON RAINFOREST IS ON FIRE & NOBODY CARES',
   img: amazonFires8,
   legend: legendAmazonFires8,
 
 };
 
 export const subChapter09 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: WHO IS RESPONSIBLE FOR AMAZON FOREST FIRE? | TAMIL | LMES',
   img: amazonFires9,
   legend: legendAmazonFires9,
 
 };
 
 export const subChapter10 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: FLYING ABOVE THE AMAZON FIRES: \'ALL YOU CAN SEE IS DEATH\'',
   img: amazonFires10,
   legend: legendAmazonFires10,
 

@@ -20,70 +20,70 @@ import prayLegend9 from '../../images/ch02/subPrayAmazon/prayLegend9.png';
 import prayLegend10 from '../../images/ch02/subPrayAmazon/prayLegend10.png';
 
 export const subChapter011 = {
-  titolo: 'video: Je BALAYE les Bobo PRAY-FOR-AMAZONIA - Expliquez-Moi Cette Merde #13',
+  titolo: 'VIDEO: JE BALAYE LES BOBO PRAY-FOR-AMAZONIA - EXPLIQUEZ-MOI CETTE MERDE #13',
   img: prayAmazon1,
   legend: prayLegend1,
 
 };
 
 export const subChapter021 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: AMAZON FIRE VS METHANE GAS | PRAYFORAMAZONIA | AMAZON FOREST | TAMIL POKKISHAM |',
   img: prayAmazon2,
   legend: prayLegend2,
 
 };
 
 export const subChapter031 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: #AMAZONIA #PRAYFORAMAZONIA',
   img: prayAmazon3,
   legend: prayLegend3,
 
 };
 
 export const subChapter041 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: MUSICA DA FLORESTA - INCENDIOS DA AMAZÔNIA #PRAYFORAMAZONIA',
   img: prayAmazon4,
   legend: prayLegend4,
 
 };
 
 export const subChapter051 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: LA DEVASTADORA RAZ√Ì̀N QUE UNE A CRISTIANO RONALDO Y LUIS SUAREZ #PRAYFORAMAZONAS',
   img: prayAmazon5,
   legend: prayLegend5,
 
 };
 
 export const subChapter061 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: PRAY FOR AMAZONIA',
   img: prayAmazon6,
   legend: prayLegend6,
 
 };
 
 export const subChapter071 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: MACRON URGES ACTION FROM G7 LEADERS ON AMAZON RAINFOREST FIRE',
   img: prayAmazon7,
   legend: prayLegend7,
 
 };
 
 export const subChapter081 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: FIREFIGHTERS TACKLE FIRES CONTINUING TO BURN IN DEVASTATED AMAZON RAINFOREST',
   img: prayAmazon8,
   legend: prayLegend8,
 
 };
 
 export const subChapter091 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: BRAZILIAN FORCES WILL DEPLOY TO FIGHT AMAZON FIRES',
   img: prayAmazon9,
   legend: prayLegend9,
 
 };
 
 export const subChapter101 = {
-  titolo: 'AMAZON RAINFOREST ON FIRE LUNGS OF THE WORDL INF FLAME NIGHTTIME',
+  titolo: 'VIDEO: BRAZILIAN TROOPS DEPLOYED TO BATTLE AMAZON FIRE',
   img: prayAmazon10,
   legend: prayLegend10,
 
