@@ -180,6 +180,10 @@ export default function Ch02Tab() {
           <p className="text-decoration-underline pt-1">{creationVector3}</p>
         </div>
 
+        <div style={{ height: '5rem' }} className="col-12 border-end border-secondary border-bottom border-top bg-primary px-2" />
+
+        <div style={{ height: '5rem' }} className="col-12 border-end border-secondary border-bottom border-top bg-primary px-2" />
+
         <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
           <p className="text-decoration-underline">{annotate}</p>
 
