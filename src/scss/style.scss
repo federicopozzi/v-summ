@@ -14,6 +14,7 @@ $danger: #A9F5C7;
 $secondary: #7FABFF;
 $warning: #FFF9BB;
 $info: #FFBDF1;
+$success: #FFA1A1;
 
 $border-widths: (
         1: 1px,
@@ -72,6 +73,10 @@ a {
 
 .verdino {
   background: radial-gradient(68.9% 68.9% at 50% 50%, rgba(169, 245, 199, 0.8) 20.31%, rgba(242, 242, 242, 0) 100%);
+}
+
+.rossino {
+  background: radial-gradient(59.26% 59.26% at 50% 50%, rgba(255, 161, 161, 0.8) 11.46%, rgba(255, 241, 241, 0) 100%);
 }
 
 .frecciaR {

@@ -1,5 +1,5 @@
 import {
-  capitolo1, capitolo2, capitolo3, capitolo4,
+  capitolo1, capitolo2, capitolo3, capitolo4, capitolo5,
 } from './chapter';
 import { sottocapitolo1, sottocapitolo2 } from './subchapter';
 
@@ -10,5 +10,6 @@ export default [
   capitolo2,
   capitolo3,
   capitolo4,
+  capitolo5,
 
 ];
