@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  steps, tools, whats, b,
+  steps, tools, whats,
 } from '../../data/subCh02/subCh02Tab';
 
 export default function Ch02Tab() {
