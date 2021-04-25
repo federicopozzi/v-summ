@@ -9,12 +9,7 @@ export default function Home() {
     <div className="bg-primary">
       <HeaderHome />
       <div>
-        <img
-          src={homeImg}
-          className="img-fluid sticky-top "
-          alt="Responsive image"
-          height="100"
-        />
+
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 ">
