@@ -27,6 +27,15 @@ export default function Ch02Tab() {
     {
       pill: 'videoTitle',
     },
+    {
+      pill: 'publishedAt',
+    },
+    {
+      pill: 'viewCount',
+    },
+    {
+      pill: 'position',
+    },
   ];
 
   const bg = 'bg-secondary';

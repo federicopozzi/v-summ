@@ -27,6 +27,15 @@ export default function Ch04Tab() {
     {
       pill: 'videoTitle',
     },
+    {
+      pill: 'publishedAt',
+    },
+    {
+      pill: 'viewCount',
+    },
+    {
+      pill: 'position',
+    },
   ];
 
   const bg = 'bg-warning';
@@ -209,28 +218,6 @@ export default function Ch04Tab() {
               <p>REPLACE WITH:VIDEO1..VIDEO2..]</p>
             </p>
           </div>
-
-          <div style={{ height: '5rem' }} className="col-12 border-end border-warning border-bottom border-top bg-primary px-2">
-            <p className="fw-bold">Rename the frames inside the folder like this:</p>
-            {
-                      renameFrames.map(({
-                        pillola, colore,
-                      }, i) => (
-                        <span className={`badge rounded-pill text-dark mx-2 ${colore}`}>{pillola}</span>
-                      ))
-                  }
-
-          </div>
-
-          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-warning border-bottom border-top bg-primary px-2">
-            <p className="text-decoration-underline">{creationVector1}</p>
-            <p className="text-decoration-underline pt-1">{creationVector2}</p>
-            <p className="text-decoration-underline pt-1">{creationVector3}</p>
-          </div>
-
-          <div style={{ height: '5rem' }} className="col-12 border-end border-warning border-bottom border-top bg-primary px-2" />
-
-          <div style={{ height: '5rem' }} className="col-12 border-end border-warning border-bottom border-top bg-primary px-2" />
 
           <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-warning border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline">{annotate}</p>

@@ -43,6 +43,15 @@ export default function Ch01Tab() {
     {
       pill: 'videoTitle',
     },
+    {
+      pill: 'publishedAt',
+    },
+    {
+      pill: 'viewCount',
+    },
+    {
+      pill: 'position',
+    },
   ];
 
   const bg = 'bg-danger';
