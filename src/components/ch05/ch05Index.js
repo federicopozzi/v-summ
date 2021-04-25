@@ -1,6 +1,5 @@
 import React from 'react';
 import amazonFires1 from '../../images/ch05/amazonFires/1.gif';
-import prayAmazon1 from '../../images/ch05/prayAmazon/1.gif';
 
 import '../../scss/style.scss';
 import Link from 'gatsby-link';
