@@ -16,7 +16,7 @@ export const tabHead = [
 
 export const steps = [
   {
-    step: '4SCRAPING1',
+    step: 'SCRAPING',
   },
   {
     step: 'DATA EXPLORATION',
@@ -24,17 +24,65 @@ export const steps = [
   {
     step: 'DATA PREPARATION',
   },
+  {
+    step: 'URLS CREATION',
+  },
+  {
+    step: 'RENAMING THE NEW COLUMN',
+  },
+  {
+    step: 'DOWNLOAD VIDEOS',
+  },
+  {
+    step: 'COLLECTING VIDEOS IN A NEW FOLDER',
+  },
+  {
+    step: 'FRAME EXTRACTIONS BY CHANGE OF SCENE',
+  },
+  {
+    step: 'COLLECTING ALL THE FRAMES IN FOLDERS DIVIDED BY VIDEO',
+  },
+  {
+    step: 'EXTRACTING CHARACTERS WITH RUNAWAY ML',
+  },
+  {
+    step: 'ANNOTATE THE VISUALISATION',
+  },
 ];
 
 export const whats = [
   {
-    what: '14GET A LIST OF VIDEOS FOR EACH CHOSEN QUERY AND SELECTED TIME-FRAME',
+    what: 'GET A LIST OF VIDEOS FOR EACH CHOSEN QUERY AND SELECTED TIME-FRAME.',
   },
   {
-    what: 'Open the YOutube Data tool(YDT) CSV DOWNLOADED and explore the data',
+    what: 'OPEN THE YOUTUBE DATA TOOL(YDT) CSV DOWNLOADED AND EXPLORE THE DATA.',
   },
   {
-    what: 'filter the list by order of views to take the first 10 videos as samples for each query(Amazon Fires-PrayForAmazonia)',
+    what: 'FILTER THE LIST BY ORDER OF VIEWS TO TAKE THE FIRST 10 VIDEOS AS SAMPLES.',
+  },
+  {
+    what: 'INSIDE THE YDT.CSV THERE IS ONLY THE VIDEOS ID, BUT YOU NEED THE URL TO DOWNLOAD THEM.',
+  },
+  {
+    what: 'TO KEEP TRACK OF THE NEW COLUMN IN WHICH WE HAVE ALL THE VIDEO URLS.',
+  },
+  {
+    what: 'DOWNLOAD THE VIDEO SAMPLE QUICKLY AND AUTOMATICALLY.',
+  },
+  {
+    what: 'IT’S IMPORTANT FOR THE NEXT SCRIPT THAT THE FOLDER CONTAINS ONLY THE DOWNLOADED VIDEOS.',
+  },
+  {
+    what: '* THE SCRIPT EXTRACTS THREE FRAMES EVERY SCENE CHANGE.',
+  },
+  {
+    what: 'THE NEXT STEP REQUIRES HAVING THE FRAMES OF EACH VIDEO IN A SINGLE FOLDER.',
+  },
+  {
+    what: 'INSERT THE FRAMES TO RUN THE MODEL AND INDICATE THE DIRECTORY WHERE THE NEW FRAMES WILL BE SAVED.',
+  },
+  {
+    what: 'CREATE VIDEOS GRID FOR EACH QUERY.',
   },
 ];
 
@@ -42,22 +90,69 @@ const back = 'bianco';
 
 export const tools = [
   {
-    tool: '14Youtube',
+    tool: 'Youtube Data Tools',
     arrow: ' ⟶ ',
-    quadre: '[Video L]',
+    quadre: '[Video List]',
     sfondo: '',
   },
   {
-    tool: 'Youtube',
+    tool: 'Excel',
     arrow: ' ⟶ ',
-    quadre: '[Video L]',
+    quadre: '[Import Data]',
     sfondo: back,
   },
   {
-    tool: 'Youtube',
+    tool: 'Excel',
     arrow: ' ⟶ ',
-    quadre: '[Video L]',
+    quadre: '[Filter-Discending]',
     sfondo: back,
   },
-
+  {
+    tool: 'Excel',
+    arrow: ' ⟶ ',
+    quadre: '=CONCATENA(E2;F2)',
+    sfondo: back,
+  },
+  {
+    tool: 'Excel',
+    arrow: ' ',
+    quadre: '',
+    sfondo: back,
+  },
+  {
+    tool: 'Python3',
+    arrow: ' ⟶ ',
+    quadre: '[PyTube3]',
+    sfondo: back,
+  },
+  {
+    tool: '',
+    arrow: 'No tool needed',
+    quadre: '',
+    sfondo: '',
+  },
+  {
+    tool: 'Python3',
+    arrow: ' ⟶ ',
+    quadre: '[PySceneDetect]',
+    sfondo: back,
+  },
+  {
+    tool: '',
+    arrow: 'No tool needed',
+    quadre: '',
+    sfondo: '',
+  },
+  {
+    tool: 'DeepLabV3',
+    arrow: ' ⟶ ',
+    quadre: 'Extract people from images',
+    sfondo: back,
+  },
+  {
+    tool: 'Figma',
+    arrow: '',
+    quadre: '',
+    sfondo: back,
+  },
 ];
