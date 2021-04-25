@@ -77,10 +77,6 @@ export default function Ch05Tab() {
       pillola: 'frame4',
       colore: bg,
     },
-    {
-      pillola: 'frame5',
-      colore: bg,
-    },
   ];
 
   const renameFrames = [
@@ -215,7 +211,14 @@ export default function Ch05Tab() {
 
           <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-success border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline">{annotate1}</p>
-            <p className="text-decoration-underline">{annotate2}</p>
+          </div>
+
+          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-success border-bottom border-top bg-primary px-2">
+            <p className="text-decoration-underline" />
+          </div>
+
+          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-success border-bottom border-top bg-primary px-2">
+            <p className="text-decoration-underline" />
           </div>
 
           <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-success border-bottom border-top bg-primary px-2">

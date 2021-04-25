@@ -86,7 +86,13 @@ export const whats = [
     what: 'THE NEXT STEP REQUIRES HAVING THE FRAMES OF EACH VIDEO IN A SINGLE FOLDER.',
   },
   {
-    what: 'INSERT THE FRAMES TO RUN THE MODEL AND INDICATE THE DIRECTORY WHERE THE NEW FRAMES WILL BE SAVED.',
+    what: 'INSERT ALL THE FRAMES OF ONE VIDEO AT A TIME TO RUN THE MODEL.',
+  },
+  {
+    what: 'MEASURE BRIGHTNESS, HUE AND SATURATION OF EACH FRAME.',
+  },
+  {
+    what: 'SAVE ALL NEW IMAGES AS A SEQUENCE OF STATIC PNGS TO BE ABLE TO ANNOTATE THEM.\n',
   },
   {
     what: 'CREATE VIDEOS GRID FOR EACH QUERY.',
@@ -151,9 +157,21 @@ export const tools = [
     sfondo: '',
   },
   {
-    tool: 'DeepLabV3',
+    tool: 'ImageJ',
     arrow: ' ⟶ ',
-    quadre: 'Extract people from images',
+    quadre: '[Image Sequence]',
+    sfondo: back,
+  },
+  {
+    tool: 'ImageJ',
+    arrow: ' ⟶ ',
+    quadre: '[Stack 3D Surface Plot]',
+    sfondo: back,
+  },
+  {
+    tool: 'ImageJ',
+    arrow: ' ⟶ ',
+    quadre: '[Save As]  ⟶  [Png sequence]',
     sfondo: back,
   },
   {
