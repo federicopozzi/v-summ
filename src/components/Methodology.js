@@ -30,10 +30,10 @@ export default function Methodology() {
             {aim}
           </p>
         </div>
-        <div className="col-2">
+        <div className="col-2 pt-5">
           <span className="fs-2 text-decoration-underline">output</span>
         </div>
-        <div className="col-10">
+        <div className="col-10 pt-5">
           <p className="fs-2">
             {' '}
             {output}
