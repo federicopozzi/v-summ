@@ -49,7 +49,7 @@ export const amazonFires = [
   {
     src: amazon6,
     id: 'video#6',
-    link: '/subChapter02?selected=5',
+    link: '/subChapter022?selected=5',
   },
   {
     src: amazon7,
