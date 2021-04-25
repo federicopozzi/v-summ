@@ -33,18 +33,21 @@ export const capitolo3 = {
 };
 
 export const capitolo4 = {
-  primo: 'Recognising the main humans faces in a collection of videos and visually quantifying  their presence.',
+  primo: 'Recognising the main humans faces in a collection of videos and visually quantifying  their presence. ',
   rq: 'RQ: Which are the most recognisable faces in the Amazon Fires related Youtube videos?',
   viz: ch04,
   colore: `giallo ${sfondo}`,
   coloreBordo: 'border-warning',
-  aim: 'This type of analysis allows us to recognise the faces of human figures and to recognise those most present within a collection of videos. The segmentation model used on RunwayML removes the background from images featuring people. Frame extraction for this purpose is based on scene change detection, so that the images to be analysed are only taken once and there are no duplicates due to scene length.',
-  output: 'The final visualisation is a catalogue of faces of human figures, resized by the amount of presence in the analysed videos, and clustered by type (e.g. politicians, bloggers, natives).',
+  aim: 'This type of analysis allows us to recognise the faces of human figures and to recognise those most present within a collection of videos. The segmentation model used on RunwayML removes the background from images featuring people. Frame extraction for this purpose is based on scene change detection, so that the images to be analysed are only taken once and there \n'
+      + 'are no duplicates due to scene length.',
+  output: 'The final visualisation is a catalogue of faces of human figures, resized \n'
+      + 'by the amount of presence in the analysed videos, and clustered by type \n'
+      + '(e.g. politicians, bloggers, natives).\n',
 };
 
 export const capitolo5 = {
-  primo: 'Recognising the main humans faces in a collection of videos and visually quantifying  their presence.',
-  rq: 'RQ: Which are the most recognisable faces in the Amazon Fires related Youtube videos?',
+  primo: 'Analysing the color palettes in a collection of videos.',
+  rq: 'RQ: Which are the visual tones of the most-watched Amazon fires related YouTube videos?',
   viz: ch04,
   colore: `rossino ${sfondo}`,
   coloreBordo: 'border-success',
