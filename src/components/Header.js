@@ -14,7 +14,7 @@ export default function Header() {
 
             <p className="fs-2">
 
-              <Link to="/home" className="linkHead">
+              <Link to="/" className="linkHead">
                 HOME
                 <ArrowLink style={{ transform: 'scale(0.8)' }} />
               </Link>
@@ -32,7 +32,7 @@ export default function Header() {
               <ArrowLink style={{ transform: 'scale(0.8)' }} />
             </p>
             <p className="fs-2">
-              <Link to="/" className="linkHead">
+              <Link to="/home" className="linkHead">
                 INDEX
                 <ArrowLink style={{ transform: 'scale(0.8)' }} />
               </Link>
