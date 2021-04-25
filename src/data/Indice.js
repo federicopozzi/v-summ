@@ -1,7 +1,7 @@
 export const chapter = [
   {
     number: 'CHAPTER 01',
-    title: 'IdentifyingI and visualising the main themes emerging from a video collection of videos.',
+    title: 'Identifying and visualising the main themes emerging from a video collection of videos.',
     subtitle: 'ONE COLLECTION OF 50 VIDEOS',
     backGround: 'col-5 verde border-end border-dark py-3',
   },
