@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/v-summ',
   siteMetadata: {
     title: 'v-summ',
   },
