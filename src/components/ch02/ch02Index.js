@@ -24,7 +24,9 @@ export default function Ch02Index() {
         <p>
           <ArrowDown style={{ transform: 'scale(0.6)' }} />
           {' '}
-          Query "Amazon Fires"
+          Query "
+          <span className="fw-bold">Amazon Fires</span>
+          "
         </p>
       </div>
       <div className="row pt-2 d-flex align-items-center justify-content-between">
@@ -50,7 +52,9 @@ export default function Ch02Index() {
       <div className="row pt-5">
         <p>
           <ArrowDown style={{ transform: 'scale(0.6)' }} />
-          Query "Pray for Amazonia"
+          Query "
+          <span className="fw-bold">Pray for Amazonia</span>
+          "
         </p>
       </div>
       <div className="row pt-2 d-flex align-items-center justify-content-between">
