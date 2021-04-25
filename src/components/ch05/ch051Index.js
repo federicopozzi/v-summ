@@ -1,0 +1,81 @@
+import React from 'react';
+import { ReactComponent as Right } from '../../assets/svg/right.svg';
+
+import prayAmazon1 from '../../images/ch05/prayAmazon/1.gif';
+
+import '../../scss/style.scss';
+import Link from 'gatsby-link';
+
+export default function Ch05Index() {
+  const prayAmazonFirst5 = [
+    {
+      src: prayAmazon1,
+      text: '| aaa FOREST FIRE | ODHIGYAN SCIENCE',
+    },
+  ];
+  const prayAmazonSecond5 = [
+    {
+      src: prayAmazon1,
+      text: '| aaa FOREST FIRE | ODHIGYAN SCIENCE',
+    },
+  ];
+
+  return (
+    <div className="container-fluid  bg-primary">
+      <div className="row pt-3">
+        <p>
+          <span className="display-7">select a query: </span>
+          <span>Amazon Fires </span>
+          {' '}
+&nbsp;
+          <Link to="/chapter05?selected=6" className="linkHead">
+            {' '}
+            <Right />
+          </Link>
+          {' '}
+
+&nbsp;
+          <span> Pray for Amazonia </span>
+        </p>
+      </div>
+      <div className="row pt-1"><p><span className="badge rounded-pill bg-light text-dark">*CLICK ON A VIDEO TO SEE ALL THE FRAMES PLOTTED</span></p></div>
+      <div className="row pt-5">
+        {
+                    prayAmazonFirst5.map(({
+                      src, text,
+                    }, i) => (
+                      <div className="col-2">
+                        <img
+                          src={src}
+                          className="img-fluid"
+                          alt="Responsive image"
+                          height="100"
+                        />
+                        <p className="text-center">{text}</p>
+                      </div>
+
+                    ))
+                }
+      </div>
+      <div className="row pt-4">
+        {
+                prayAmazonSecond5.map(({
+                  src, text,
+                }, i) => (
+                  <div className="col-2">
+                    <img
+                      src={src}
+                      className="img-fluid"
+                      alt="Responsive image"
+                      height="100"
+                    />
+                    <p className="text-center">{text}</p>
+                  </div>
+
+                ))
+            }
+      </div>
+    </div>
+
+  );
+}
