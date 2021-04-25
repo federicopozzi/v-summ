@@ -2,8 +2,6 @@ import React from 'react';
 import '../scss/style.scss';
 import HeaderHome from '../components/HeaderHome';
 
-import homeImg from '../images/home/homeImg.png';
-
 export default function Home() {
   return (
     <div className="bg-primary">
