@@ -5,7 +5,7 @@ import '../scss/style.scss';
 
 export default function HeaderHome() {
   return (
-    <div className="head">
+    <div className="head sticky-top">
       <Header />
 
     </div>
