@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 
 import '../scss/style.scss';
-import homeImg from '../images/home/homeImg.png';
+import homeImg from '../images/home/HOMEVIDEO.mp4';
 
 export default function HeaderHome() {
   return (
@@ -10,10 +10,12 @@ export default function HeaderHome() {
       <div className="head ">
         <Header />
       </div>
-      <img
+      <video
+        autoPlay
+        muted
+        loop
         src={homeImg}
         className="img-fluid sticky-top border-bottom border-2 border-dark"
-        alt="Responsive image"
         height="100"
       />
     </div>
