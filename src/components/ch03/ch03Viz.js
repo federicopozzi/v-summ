@@ -25,6 +25,7 @@ import prayA10 from '../../images/ch03/prayA/10.png';
 
 import '../../scss/style.scss';
 import { ReactComponent as ArrowDown } from '../../assets/svg/arrowDown.svg';
+import Link from 'gatsby-link';
 
 export default function Ch03Viz() {
   const amFires = [
@@ -110,7 +111,9 @@ export default function Ch03Viz() {
             Query "
             <span className="fw-bold">Amazon Fires</span>
             "
-            <span className="badge rounded-pill bg-light text-dark mx-5 px-3">ZOOM IN</span>
+
+            {' '}
+            {/* <span className="badge rounded-pill bg-light text-dark mx-5 px-3">ZOOM IN</span> */}
 
           </p>
         </div>
@@ -156,7 +159,7 @@ export default function Ch03Viz() {
             Query "
             <span className="fw-bold">Pray for Amazonia</span>
             "
-            <span className="badge rounded-pill bg-light text-dark mx-5 px-3">ZOOM IN</span>
+            {/* <span className="badge rounded-pill bg-light text-dark mx-5 px-3">ZOOM IN</span> */}
           </p>
         </div>
         <div className="row">
