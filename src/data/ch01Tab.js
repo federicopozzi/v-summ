@@ -115,7 +115,7 @@ const back = 'bianco';
 
 export const tools = [
   {
-    tool: 'Youtube',
+    tool: 'Youtube Data Tools',
     arrow: ' ⟶ ',
     quadre: '[Video List]',
     sfondo: back,
@@ -130,7 +130,7 @@ export const tools = [
     tool: 'Excel',
     arrow: ' ⟶ ',
     quadre: '[Filter-Discending]',
-    sfondo: '',
+    sfondo: back,
   },
   {
     tool: 'Excel',
