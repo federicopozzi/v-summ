@@ -18,6 +18,8 @@ export default function Ch04Tab() {
     creationVector2: 'LINK TO PIXPLOT DOCUMENTATION',
     creationVector3: 'LINK TO REPOSITORY AND STEP-BY-STEP GUIDE',
     annotate: 'LINK TO DOWNLOAD FIGMA',
+    annotate1: 'LINK TO DOWNLOAD',
+    annotate2: 'LINK TO STEP-BY-STEP-GUIDE',
   };
 
   const dataExploration = [
@@ -97,7 +99,7 @@ export default function Ch04Tab() {
   ];
 
   const {
-    scraping, urlsCreation1, urlsCreation2, renaming, downloadVideo1, downloadVideo2, downloadVideo3, frameExtraction1, frameExtraction2, creationVector1, creationVector2, creationVector3, annotate,
+    scraping, urlsCreation1, urlsCreation2, renaming, downloadVideo1, downloadVideo2, downloadVideo3, frameExtraction1, frameExtraction2, creationVector1, creationVector2, creationVector3, annotate, annotate1, annotate2,
   } = quartaColonna;
   return (
     <div className="container-fluid">
@@ -211,17 +213,13 @@ export default function Ch04Tab() {
 
           </div>
 
-          <div style={{ height: '5rem' }} className="display-4 bianco col-12 border-end border-warning border-bottom border-top bg-primary px-2">
-            <p>
-              <p>[SEARCH VIDEO-SCENE /</p>
-
-              <p>REPLACE WITH:VIDEO1..VIDEO2..]</p>
-            </p>
+          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-warning border-bottom border-top bg-primary px-2">
+            <p className="text-decoration-underline">{annotate1}</p>
+            <p className="text-decoration-underline">{annotate2}</p>
           </div>
 
           <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-warning border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline">{annotate}</p>
-
           </div>
 
         </div>
