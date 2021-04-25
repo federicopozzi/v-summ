@@ -105,9 +105,6 @@ export const whats = [
   {
     what: 'TAKE A SCREENSHOT OR USE THE "SAVE AS" COMMAND TO OBTAIN A STATIC IMAGE ON WHICH TO MAKE ANNOTATIONS.',
   },
-  {
-    what: 'HIGHLIGHTING THEMATIC CLUSTERS',
-  },
 
 ];
 
