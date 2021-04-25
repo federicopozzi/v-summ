@@ -4,7 +4,6 @@ import {
   tools, tabHead, whats, steps,
 } from '../../data/ch01Tab';
 import { ReactComponent as ArrowD } from '../../assets/svg/arrowD.svg';
-import data from '../../data';
 
 export default function Ch01Tab() {
   const campoDiverso = [
