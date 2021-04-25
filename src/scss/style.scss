@@ -23,6 +23,15 @@ $border-widths: (
         5: 0.1px
 ) !default;
 
+$display-font-sizes: (
+        1: 5rem,
+        2: 4.5rem,
+        3: 4rem,
+        4: 3.5rem,
+        5: 0.7rem,
+        6: 2.5rem
+) !default;
+
 @import "~bootstrap";
 
 a {

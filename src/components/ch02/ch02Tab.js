@@ -139,10 +139,10 @@ export default function Ch02Tab() {
           <span className="badge rounded-pill bg-light text-dark mx-2">{renaming}</span>
         </div>
 
-        <div style={{ height: '5rem' }} className="bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
-          <p className="text-decoration-underline">{downloadVideo1}</p>
-          <p className="text-decoration-underline">{downloadVideo2}</p>
-          <p className="text-decoration-underline">{downloadVideo3}</p>
+        <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
+          <p className="text-decoration-underline ">{downloadVideo1}</p>
+          <p className="text-decoration-underline pt-1">{downloadVideo2}</p>
+          <p className="text-decoration-underline pt-1">{downloadVideo3}</p>
         </div>
 
         <div style={{ height: '5rem' }} className="col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
@@ -157,9 +157,9 @@ export default function Ch02Tab() {
 
         </div>
 
-        <div style={{ height: '5rem' }} className="bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
+        <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
           <p className="text-decoration-underline">{frameExtraction1}</p>
-          <p className="text-decoration-underline">{frameExtraction2}</p>
+          <p className="text-decoration-underline pt-1">{frameExtraction2}</p>
         </div>
 
         <div style={{ height: '5rem' }} className="col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
@@ -174,13 +174,13 @@ export default function Ch02Tab() {
 
         </div>
 
-        <div style={{ height: '5rem' }} className="bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
+        <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
           <p className="text-decoration-underline">{creationVector1}</p>
-          <p className="text-decoration-underline">{creationVector2}</p>
-          <p className="text-decoration-underline">{creationVector3}</p>
+          <p className="text-decoration-underline pt-1">{creationVector2}</p>
+          <p className="text-decoration-underline pt-1">{creationVector3}</p>
         </div>
 
-        <div style={{ height: '5rem' }} className="bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
+        <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-secondary border-bottom border-top bg-primary px-2">
           <p className="text-decoration-underline">{annotate}</p>
 
         </div>
