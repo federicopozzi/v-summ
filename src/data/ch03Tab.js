@@ -145,11 +145,36 @@ export const tools = [
     quadre: '',
     sfondo: '',
   },
+
+];
+
+export const tools2 = [
   {
     tool: 'Python3',
     arrow: ' ⟶ ',
     quadre: '[PySceneDetect]',
     sfondo: back,
+  },
+  {
+    tool: 'Vlc',
+    arrow: 'No tool needed',
+    quadre: '',
+    sfondo: '',
+  },
+  {
+    tool: 'FFmpeg',
+    arrow: ' ⟶ ',
+    quadre: 'Extract people from images',
+    sfondo: back,
+  },
+];
+
+export const tools3 = [
+  {
+    tool: '',
+    arrow: 'No tool needed',
+    quadre: '',
+    sfondo: '',
   },
   {
     tool: '',
@@ -158,15 +183,21 @@ export const tools = [
     sfondo: '',
   },
   {
-    tool: 'DeepLabV3',
-    arrow: ' ⟶ ',
-    quadre: 'Extract people from images',
-    sfondo: back,
+    tool: '',
+    arrow: 'No tool needed',
+    quadre: '',
+    sfondo: '',
   },
   {
-    tool: 'Figma',
-    arrow: '',
+    tool: '',
+    arrow: 'No tool needed',
     quadre: '',
-    sfondo: back,
+    sfondo: '',
+  },
+  {
+    tool: '',
+    arrow: 'No tool needed',
+    quadre: '',
+    sfondo: '',
   },
 ];
