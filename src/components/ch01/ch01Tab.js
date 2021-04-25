@@ -4,15 +4,22 @@ import {
   tools, tabHead, whats, steps,
 } from '../../data/ch01Tab';
 import { ReactComponent as ArrowD } from '../../assets/svg/arrowD.svg';
+import data from '../../data';
 
 export default function Ch01Tab() {
+  const campoDiverso = [
+    { a: 'HIGHLIGHTING THEMATIC CLUSTER ' },
+    { a: 'HIGHLIGHTING THEMATIC CLUSTER \'' },
+    { a: 'DESTRUCTURING THE GRID (SEE HOW IN THE SLIDER ↑) AND HIGHLIGHTING THEMATIC CLUSTER' },
+  ];
+
+  let index = 0;
   if (typeof window !== 'undefined') {
     const params = new URLSearchParams(window.location.search);
-    let campoDiverso = 'campo giusto';
-    if (params.get('selected') === '2') {
-      campoDiverso = 'campo diverso';
-    }
+
+    index = typeof params.get('selected') !== 'undefined' ? params.get('selected') : 0;
   }
+  const { a } = campoDiverso[index];
 
   const quartaColonna = {
     scraping: '“Amazon Fires” - “Pray for Amazonia”',
@@ -123,6 +130,9 @@ export default function Ch01Tab() {
               </div>
             ))
           }
+          <div style={{ height: '5rem' }} className="col-12 border-end border-danger border-bottom border-top bg-primary px-2">
+            {a}
+          </div>
         </div>
         <div className="col-3 padding">
           {
