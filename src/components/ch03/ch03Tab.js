@@ -121,7 +121,7 @@ export default function Ch03Tab() {
                         steps.map(({
                           step,
                         }, i) => (
-                          <div style={{ height: '5rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2" key={i}>
+                          <div style={{ height: '6rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2" key={i}>
                             <span className="fw-bold">{step}</span>
                           </div>
                         ))
@@ -132,7 +132,7 @@ export default function Ch03Tab() {
                         whats.map(({
                           what,
                         }, i) => (
-                          <div style={{ height: '5rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2" key={i}>
+                          <div style={{ height: '6rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2" key={i}>
                             {what}
                           </div>
                         ))
@@ -143,7 +143,7 @@ export default function Ch03Tab() {
                         tools.map(({
                           tool, sfondo, arrow, quadre,
                         }, i) => (
-                          <div style={{ height: '5rem' }} className={`col-12 border-end border-info border-bottom border-top bg-primary px-2 ${sfondo}`} key={i}>
+                          <div style={{ height: '6rem' }} className={`col-12 border-end border-info border-bottom border-top bg-primary px-2 ${sfondo}`} key={i}>
                             <span className="fw-bold">{tool}</span>
                             {arrow}
                             {quadre}
@@ -151,27 +151,14 @@ export default function Ch03Tab() {
                         ))
                     }
 
-          <div style={{ height: '5rem' }} className="col-12 border-info border-bottom border-top bg-primary">
-            {
-              tools2.map(({
-                tool, sfondo, arrow, quadre,
-              }, i) => (
-                <div className={`col-12 border-end border-info border-bottom border-top bg-primary px-2 ${sfondo}`} key={i}>
-                  <span className="fw-bold">{tool}</span>
-                  {arrow}
-                  {quadre}
-                </div>
-              ))
-            }
-          </div>
         </div>
         <div className="col-3 padding">
 
-          <div style={{ height: '5rem' }} className="bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
             {scraping}
           </div>
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
             {
                             dataExploration.map(({
                               pill,
@@ -181,24 +168,24 @@ export default function Ch03Tab() {
                         }
           </div>
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2" />
+          <div style={{ height: '6rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2" />
 
-          <div style={{ height: '5rem' }} className="bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <p>{urlsCreation1}</p>
             <p>{urlsCreation2}</p>
           </div>
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <span className="badge rounded-pill bg-light text-dark mx-2">{renaming}</span>
           </div>
 
-          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="display-5 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline ">{downloadVideo1}</p>
             <p className="text-decoration-underline pt-1">{downloadVideo2}</p>
             <p className="text-decoration-underline pt-1">{downloadVideo3}</p>
           </div>
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <p className="fw-bold">Rename the videos inside the folder like this:</p>
             {
                             collectingVideo.map(({
@@ -210,12 +197,12 @@ export default function Ch03Tab() {
 
           </div>
 
-          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="display-5 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline">{frameExtraction1}</p>
             <p className="text-decoration-underline pt-1">{frameExtraction2}</p>
           </div>
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <p className="fw-bold">Rename the frames inside the folder like this:</p>
             {
                             collectingFrames.map(({
@@ -227,7 +214,7 @@ export default function Ch03Tab() {
 
           </div>
 
-          <div style={{ height: '5rem' }} className="display-4 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="display-4 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <p>
               <p>[SEARCH VIDEO-SCENE /</p>
 
@@ -235,7 +222,7 @@ export default function Ch03Tab() {
             </p>
           </div>
 
-          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
+          <div style={{ height: '6rem' }} className="display-5 bianco col-12 border-end border-info border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline">{annotate}</p>
 
           </div>
