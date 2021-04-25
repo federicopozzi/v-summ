@@ -38,6 +38,8 @@ export const whats = [
   },
 ];
 
+const back = 'bianco';
+
 export const tools = [
   {
     tool: '1Youtube',
@@ -49,13 +51,13 @@ export const tools = [
     tool: 'Youtube',
     arrow: ' ⟶ ',
     quadre: '[Video L]',
-    sfondo: 'bianco',
+    sfondo: back,
   },
   {
     tool: 'Youtube',
     arrow: ' ⟶ ',
     quadre: '[Video L]',
-    sfondo: 'bianco',
+    sfondo: back,
   },
 
 ];
