@@ -1,5 +1,7 @@
 import React from 'react';
-import { steps, tools, whats } from '../../data/ch03Tab';
+import {
+  steps, tools, tools2, tools3, whats,
+} from '../../data/ch03Tab';
 import { tabHead } from '../../data/ch01Tab';
 import { ReactComponent as ArrowD } from '../../assets/svg/arrowD.svg';
 
@@ -148,6 +150,20 @@ export default function Ch03Tab() {
                           </div>
                         ))
                     }
+
+          <div style={{ height: '5rem' }} className="col-12 border-info border-bottom border-top bg-primary">
+            {
+              tools2.map(({
+                tool, sfondo, arrow, quadre,
+              }, i) => (
+                <div className={`col-12 border-end border-info border-bottom border-top bg-primary px-2 ${sfondo}`} key={i}>
+                  <span className="fw-bold">{tool}</span>
+                  {arrow}
+                  {quadre}
+                </div>
+              ))
+            }
+          </div>
         </div>
         <div className="col-3 padding">
 

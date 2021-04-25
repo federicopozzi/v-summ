@@ -1,5 +1,4 @@
 import React from 'react';
-import data from '../../data';
 import amFire1 from '../../images/ch03/amFires/1.png';
 import amFire2 from '../../images/ch03/amFires/2.png';
 import amFire3 from '../../images/ch03/amFires/3.png';
