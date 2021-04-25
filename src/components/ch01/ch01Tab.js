@@ -39,7 +39,7 @@ export default function Ch01Tab() {
     },
   ];
 
-  const bg = 'bg-secondary';
+  const bg = 'bg-danger';
   const collectingVideo = [
     {
       pillola: 'vid1',
@@ -205,9 +205,9 @@ export default function Ch01Tab() {
             <p className="text-decoration-underline pt-1">{creationVector3}</p>
           </div>
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-secondary border-bottom border-top bg-primary px-2" />
+          <div style={{ height: '5rem' }} className="col-12 border-end border-danger border-bottom border-top bg-primary px-2" />
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-secondary border-bottom border-top bg-primary px-2" />
+          <div style={{ height: '5rem' }} className="col-12 border-end border-danger border-bottom border-top bg-primary px-2" />
 
           <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-danger border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline">{annotate}</p>
