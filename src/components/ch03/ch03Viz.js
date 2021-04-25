@@ -24,6 +24,7 @@ import prayA9 from '../../images/ch03/prayA/9.png';
 import prayA10 from '../../images/ch03/prayA/10.png';
 
 import '../../scss/style.scss';
+import { ReactComponent as ArrowDown } from '../../assets/svg/arrowDown.svg';
 
 export default function Ch03Viz() {
   const amFires = [
@@ -100,10 +101,18 @@ export default function Ch03Viz() {
     },
   ];
   return (
-    <div className="container-fluid">
+    <div className="container-fluid bg-primary pb-3">
       <div className="row">
-        <div className="row">
-          query
+        <div className="row py-4">
+          <p>
+            <ArrowDown style={{ transform: 'scale(0.6)' }} />
+            {' '}
+            Query "
+            <span className="fw-bold">Amazon Fires</span>
+            "
+            <span className="badge rounded-pill bg-light text-dark mx-5 px-3">ZOOM IN</span>
+
+          </p>
         </div>
         <div className="row">
           {
@@ -141,8 +150,14 @@ export default function Ch03Viz() {
       </div>
 
       <div className="row">
-        <div className="row">
-          query
+        <div className="row py-4">
+          <p>
+            <ArrowDown style={{ transform: 'scale(0.6)' }} />
+            Query "
+            <span className="fw-bold">Pray for Amazonia</span>
+            "
+            <span className="badge rounded-pill bg-light text-dark mx-5 px-3">ZOOM IN</span>
+          </p>
         </div>
         <div className="row">
           {
