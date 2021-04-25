@@ -32,7 +32,7 @@ export default function SubChapter021() {
               </div>
             </div>
             <div className="col-1">
-              <Link to="/"><X style={{ transform: 'scale(0.7)' }} /></Link>
+              <Link to="/home"><X style={{ transform: 'scale(0.7)' }} /></Link>
             </div>
           </div>
         </div>
