@@ -43,7 +43,14 @@ export const steps = [
     step: 'COLLECTING ALL THE FRAMES IN FOLDERS DIVIDED BY VIDEO',
   },
   {
-    step: 'EXTRACTING CHARACTERS WITH RUNAWAY ML',
+    step: 'IMPORTING FRAMES OF EACH VIDEO',
+  },
+  {
+    step: 'PLOTTING THE FRANES OF EACH VIDEO',
+  },
+  {
+    step: 'EXPORT ALL THE FRAMES PLOTTED \n'
+        + 'OF EACH VIDEO',
   },
   {
     step: 'ANNOTATE THE VISUALISATION',
