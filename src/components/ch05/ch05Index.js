@@ -113,16 +113,18 @@ export default function Ch05Index() {
       <div className="row pt-4">
         {
                 amazonFiresSecond5.map(({
-                  src, text,
+                  src, text, link,
                 }, i) => (
                   <div className="col">
-                    <img
-                      src={src}
-                      className="img-fluid"
-                      alt="Responsive image"
-                      height="100"
-                    />
-                    <p className="text-center">{text}</p>
+                    <Link to={link} className="linkHead">
+                      <img
+                        src={src}
+                        className="img-fluid"
+                        alt="Responsive image"
+                        height="100"
+                      />
+                      <p className="text-center">{text}</p>
+                    </Link>
                   </div>
 
                 ))
