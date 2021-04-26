@@ -34,19 +34,13 @@ export const steps = [
     step: 'DOWNLOAD VIDEOS',
   },
   {
-    step: 'COLLECTING VIDEOS IN A NEW FOLDER',
+    step: 'CREATING A NEW PROJECT AND IMPORT ALL VIDEOS FOR EACH QUERY',
   },
   {
-    step: 'FRAME EXTRACTIONS BY CHANGE OF SCENE',
+    step: 'CREATING THE MONTAGE',
   },
   {
-    step: 'COLLECTING ALL THE FRAMES IN FOLDERS DIVIDED BY VIDEO',
-  },
-  {
-    step: 'EXTRACTING CHARACTERS WITH RUNAWAY ML',
-  },
-  {
-    step: 'ANNOTATE THE VISUALISATION',
+    step: 'EXPORTING THE NEW VIDEO',
   },
 ];
 
@@ -58,7 +52,7 @@ export const whats = [
     what: 'OPEN THE YOUTUBE DATA TOOL(YDT) CSV DOWNLOADED AND EXPLORE THE DATA.',
   },
   {
-    what: 'FILTER THE LIST BY ORDER OF VIEWS TO TAKE THE FIRST 10 VIDEOS AS SAMPLES.',
+    what: 'FILTER THE LIST BY ORDER OF VIEWS TO TAKE THE FIRST 5 VIDEOS AS SAMPLES FOR EACH QUERY (AMAZON FIRES-PRAYFORAMAZONIA)',
   },
   {
     what: 'INSIDE THE YDT.CSV THERE IS ONLY THE VIDEOS ID, BUT YOU NEED THE URL TO DOWNLOAD THEM.',
@@ -70,19 +64,13 @@ export const whats = [
     what: 'DOWNLOAD THE VIDEO SAMPLE QUICKLY AND AUTOMATICALLY.',
   },
   {
-    what: 'IT’S IMPORTANT FOR THE NEXT SCRIPT THAT THE FOLDER CONTAINS ONLY THE DOWNLOADED VIDEOS.',
+    what: 'THIS STEP CAN BE REPLICATED USING ANY FREE VIDEO EDITING TOOL EVEN INCLUDED WITHIN THE OPERATING SYSTEM',
   },
   {
-    what: '* THE SCRIPT EXTRACTS THREE FRAMES EVERY SCENE CHANGE.',
+    what: 'YOU MUST SET THE OPACITY OF EACH VIDEO TO 40% IN ORDER TO HAVE THE OVERLAY EFFECT',
   },
   {
-    what: 'THE NEXT STEP REQUIRES HAVING THE FRAMES OF EACH VIDEO IN A SINGLE FOLDER.',
-  },
-  {
-    what: 'INSERT THE FRAMES TO RUN THE MODEL AND INDICATE THE DIRECTORY WHERE THE NEW FRAMES WILL BE SAVED.',
-  },
-  {
-    what: 'CREATE VIDEOS GRID FOR EACH QUERY.',
+    what: 'EXPORT AS H264 WITH AUDIO INCLUDED TO PRESERVE THE SOUND COMPONENT',
   },
 ];
 
@@ -90,7 +78,7 @@ const back = 'bianco';
 
 export const tools = [
   {
-    tool: '6Youtube Data Tools',
+    tool: 'Youtube Data Tools',
     arrow: ' ⟶ ',
     quadre: '[Video List]',
     sfondo: '',
@@ -105,7 +93,7 @@ export const tools = [
     tool: 'Excel',
     arrow: ' ⟶ ',
     quadre: '[Filter-Discending]',
-    sfondo: back,
+    sfondo: '',
   },
   {
     tool: 'Excel',
@@ -126,33 +114,22 @@ export const tools = [
     sfondo: back,
   },
   {
-    tool: '',
-    arrow: 'No tool needed',
-    quadre: '',
-    sfondo: '',
-  },
-  {
-    tool: 'Python3',
+    tool: 'Premiere',
     arrow: ' ⟶ ',
-    quadre: '[PySceneDetect]',
+    quadre: '[Import]',
     sfondo: back,
   },
   {
-    tool: '',
-    arrow: 'No tool needed',
-    quadre: '',
-    sfondo: '',
-  },
-  {
-    tool: 'DeepLabV3',
+    tool: 'Premiere',
     arrow: ' ⟶ ',
-    quadre: 'Extract people from images',
+    quadre: '[Opacity: 40]',
     sfondo: back,
   },
   {
-    tool: 'Figma',
-    arrow: '',
-    quadre: '',
+    tool: 'Premiere',
+    arrow: ' ⟶ ',
+    quadre: '[Export as H264]',
     sfondo: back,
   },
+
 ];

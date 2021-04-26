@@ -17,7 +17,7 @@ export default function Ch06Tab() {
     creationVector1: 'LINK TO INSTALL ANACONDA',
     creationVector2: 'LINK TO PIXPLOT DOCUMENTATION',
     creationVector3: 'LINK TO REPOSITORY AND STEP-BY-STEP GUIDE',
-    annotate: 'LINK TO DOWNLOAD FIGMA',
+    annotate: 'LINK TO DOWNLOAD',
     annotate1: 'LINK TO DOWNLOAD',
     annotate2: 'LINK TO STEP-BY-STEP-GUIDE',
   };
@@ -184,43 +184,13 @@ export default function Ch06Tab() {
             <p className="text-decoration-underline pt-1">{downloadVideo3}</p>
           </div>
 
-          <div style={{ height: '5rem' }} className="col-12 border-end border-white border-bottom border-top bg-primary px-2">
-            <p className="fw-bold">Rename the videos inside the folder like this:</p>
-            {
-                            collectingVideo.map(({
-                              pillola, colore,
-                            }, i) => (
-                              <span className={`badge rounded-pill text-dark mx-2 ${colore}`}>{pillola}</span>
-                            ))
-                        }
-
-          </div>
-
-          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-white border-bottom border-top bg-primary px-2">
-            <p className="text-decoration-underline">{frameExtraction1}</p>
-            <p className="text-decoration-underline pt-1">{frameExtraction2}</p>
-          </div>
-
-          <div style={{ height: '5rem' }} className="col-12 border-end border-white border-bottom border-top bg-primary px-2">
-            <p className="fw-bold">Rename the frames inside the folder like this:</p>
-            {
-                            collectingFrames.map(({
-                              pillola, colore,
-                            }, i) => (
-                              <span className={`badge rounded-pill text-dark mx-2 ${colore}`}>{pillola}</span>
-                            ))
-                        }
-
-          </div>
-
-          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-white border-bottom border-top bg-primary px-2">
-            <p className="text-decoration-underline">{annotate1}</p>
-            <p className="text-decoration-underline">{annotate2}</p>
-          </div>
-
           <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-white border-bottom border-top bg-primary px-2">
             <p className="text-decoration-underline">{annotate}</p>
           </div>
+
+          <div style={{ height: '5rem' }} className="display-5 bianco col-12 border-end border-white border-bottom border-top bg-primary px-2" />
+
+          <div style={{ height: '5rem' }} className="col-12 border-end border-white border-bottom border-top bg-primary px-2" />
 
         </div>
       </div>
