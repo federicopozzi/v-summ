@@ -54,3 +54,13 @@ export const capitolo5 = {
   aim: 'This type of analysis allows videos to be analysed in a three-dimensional space based on hue, saturation and brightness. Frame extraction for this purpose is based on scene change detection, so that the images to be analysed are only taken once and there are no duplicates due to scene length. The algorithm used for the analysis in three-dimensional space is Stack 3D Surface Plot, a plug-in of ImageJ software.',
   output: 'The final visualisation is made up of gifs, each of which contains all the plotted frames of a video. The gifs are divided into two sections according to the collection they belong. By clicking on each gif it is possible to explore in detail the grid of static frames plotted in order of video reproduction. ',
 };
+
+export const capitolo6 = {
+  primo: 'cap 6Analysing the color palettes in a collection of videos.',
+  rq: 'RQ: 6Which are the visual tones of the most-watched Amazon fires related YouTube videos?',
+  viz: ch04,
+  colore: `bianco ${sfondo}`,
+  coloreBordo: 'border-white',
+  aim: '6This type of analysis allows videos to be analysed in a three-dimensional space based on hue, saturation and brightness. Frame extraction for this purpose is based on scene change detection, so that the images to be analysed are only taken once and there are no duplicates due to scene length. The algorithm used for the analysis in three-dimensional space is Stack 3D Surface Plot, a plug-in of ImageJ software.',
+  output: '6The final visualisation is made up of gifs, each of which contains all the plotted frames of a video. The gifs are divided into two sections according to the collection they belong. By clicking on each gif it is possible to explore in detail the grid of static frames plotted in order of video reproduction. ',
+};

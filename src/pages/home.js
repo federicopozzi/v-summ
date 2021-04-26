@@ -152,7 +152,7 @@ export default function Index() {
 
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
-            <span>{chapter[5].number}</span>
+            <Link to="/chapter06?selected=7&vid=0" className="linkHead"><span>{chapter[5].number}</span></Link>
             <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[5].backGround}>
