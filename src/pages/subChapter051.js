@@ -9,6 +9,7 @@ import Link from 'gatsby-link';
 import { ReactComponent as X } from '../assets/svg/x.svg';
 import { ReactComponent as ArrowD } from '../assets/svg/arrowD.svg';
 import SubCh051Viz from '../components/ch05/subCh051Viz';
+import Seo from '../components/Seo';
 
 export default function SubChapter05() {
   const headerPages = data[6];
@@ -22,6 +23,7 @@ export default function SubChapter05() {
   const { aim, output } = methodology;
   return (
     <div>
+      <Seo />
       <div className="container-fluid bg-primary">
         <div className={`row border-bottom border-1 ${coloreBordo}`}>
           <div className={`col-11 fs-5 border-end border-2 ${coloreBordo}`}>

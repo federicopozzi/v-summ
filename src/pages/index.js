@@ -1,10 +1,12 @@
 import React from 'react';
 import '../scss/style.scss';
 import HeaderHome from '../components/HeaderHome';
+import Seo from '../components/Seo';
 
 export default function Home() {
   return (
     <div className="bg-primary">
+      <Seo />
       <HeaderHome />
       <div>
 

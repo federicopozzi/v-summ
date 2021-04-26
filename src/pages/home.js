@@ -7,10 +7,12 @@ import { chapter, subChapter } from '../data/Indice';
 
 import '../scss/style.scss';
 import Link from 'gatsby-link';
+import Seo from '../components/Seo';
 
 export default function Index() {
   return (
     <div className="bg-primary">
+      <Seo />
       <Header />
       <div className="container-fluid">
         <div className="row border-bottom border-dark">

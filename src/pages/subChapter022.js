@@ -8,6 +8,7 @@ import { ReactComponent as ArrowD } from '../assets/svg/arrowD.svg';
 import { tabHead } from '../data/ch01Tab';
 import SubCh02Viz from '../components/ch02/subCh02Viz';
 import Ch02Tab from '../components/ch02/ch02Tab';
+import Seo from '../components/Seo';
 
 export default function SubChapter02() {
   const headerPages = data[3];
@@ -20,6 +21,7 @@ export default function SubChapter02() {
   const { aim, output } = methodology;
   return (
     <div>
+      <Seo />
       <div>
         <div className="container-fluid bg-primary">
           <div className={`row border-bottom border-1 ${coloreBordo}`}>
