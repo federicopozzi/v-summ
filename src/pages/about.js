@@ -4,10 +4,12 @@ import Header from '../components/Header';
 import Indice from '../components/Indice';
 
 import img from '../images/about/problemImg.png';
+import Seo from '../components/Seo';
 
 export default function About() {
   return (
     <div className="bg-primary ">
+      <Seo />
       <div className="head "><Header /></div>
       <div className="container-fluid">
         <div className="row">
