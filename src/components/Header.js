@@ -28,7 +28,7 @@ export default function Header() {
           </div>
           <div className="col-2">
             <p className="fs-2">
-              ABOUT
+              <Link to="/about" className="linkHead">ABOUT</Link>
               <ArrowLink style={{ transform: 'scale(0.8)' }} />
             </p>
             <p className="fs-2">

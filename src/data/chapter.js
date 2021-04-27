@@ -54,3 +54,14 @@ export const capitolo5 = {
   aim: 'This type of analysis allows videos to be analysed in a three-dimensional space based on hue, saturation and brightness. Frame extraction for this purpose is based on scene change detection, so that the images to be analysed are only taken once and there are no duplicates due to scene length. The algorithm used for the analysis in three-dimensional space is Stack 3D Surface Plot, a plug-in of ImageJ software.',
   output: 'The final visualisation is made up of gifs, each of which contains all the plotted frames of a video. The gifs are divided into two sections according to the collection they belong. By clicking on each gif it is possible to explore in detail the grid of static frames plotted in order of video reproduction. ',
 };
+
+export const capitolo6 = {
+  primo: 'How to recompose the mood of one or more collections of videos ',
+  rq: 'RQ: Which are the moods of the most-watched amazon fires related YT videos?',
+  viz: ch04,
+  colore: `bianco ${sfondo}`,
+  coloreBordo: 'border-white',
+  aim: 'This type of analysis recomposes the more emotional aspect of the videos, combining dynamic images, voices and sounds. In this way it is possible \n'
+      + 'to enjoy a summary story composed of several videos and to quickly compare the moods of videos belonging to different collections. The videos are superimposed with an opacity of 40% to allow all of them to be watched simultaneously.  The audio of each video is also overlapped. \n',
+  output: 'The final output is a montage of five videos that creates a new single video in which images and voices are mixed together with no hierarchy.',
+};

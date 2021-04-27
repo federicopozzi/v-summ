@@ -6,10 +6,12 @@ import Methodology from '../components/Methodology';
 import Ch02Tab from '../components/ch02/ch02Tab';
 import { tabHead } from '../data/ch01Tab';
 import { ReactComponent as ArrowD } from '../assets/svg/arrowD.svg';
+import Seo from '../components/Seo';
 
 export default function Chapter02() {
   return (
     <div>
+      <Seo />
       <HeaderPages />
       <Ch02Index />
       <div className="container-fluid bg-primary pt-5">

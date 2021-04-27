@@ -7,10 +7,12 @@ import { chapter, subChapter } from '../data/Indice';
 
 import '../scss/style.scss';
 import Link from 'gatsby-link';
+import Seo from '../components/Seo';
 
 export default function Index() {
   return (
     <div className="bg-primary">
+      <Seo />
       <Header />
       <div className="container-fluid">
         <div className="row border-bottom border-dark">
@@ -150,7 +152,7 @@ export default function Index() {
 
         <div className="row border-bottom border-dark">
           <div className="col-2 border-end border-dark d-flex align-items-center">
-            <span>{chapter[5].number}</span>
+            <Link to="/chapter06?selected=7&vid=0" className="linkHead"><span>{chapter[5].number}</span></Link>
             <ArrowR className="frecciaR" />
           </div>
           <div className={chapter[5].backGround}>

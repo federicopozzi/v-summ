@@ -20,44 +20,54 @@ export default function Ch05Index() {
     {
       src: prayAmazon1,
       text: 'JE BALAYE LES BOBO PRAY-FOR-AMAZONIA - EXPLIQUEZ-MOI CETTE MERDE #13',
+      link: '/subChapter051?selected=0',
     },
     {
       src: prayAmazon2,
       text: 'AMAZON FIRE VS METHANE GAS | PRAYFORAMAZONIA | AMAZON FOREST',
+      link: '/subChapter051?selected=1',
     },
     {
       src: prayAmazon3,
       text: '#AMAZONIA #PRAYFORAMAZONIA',
+      link: '/subChapter051?selected=2',
     },
     {
       src: prayAmazon4,
       text: 'MOSICA DA FLORESTA - INCENDIOS DA AMAZONIA - #PRAYFORAMAZONIA',
+      link: '/subChapter051?selected=3',
     },
     {
       src: prayAmazon5,
       text: 'LA DEVASTADORA RAZOIN QUE UNE A CRISTIANO RONALDO Y LUIS SUAREZ',
+      link: '/subChapter051?selected=4',
     },
   ];
   const prayAmazonSecond5 = [
     {
       src: prayAmazon6,
       text: 'EL MUNDO CLAMA PARA QUE PAREN LOS INCENDIOS EN EL AMAZONAS',
+      link: '/subChapter051?selected=5',
     },
     {
       src: prayAmazon7,
       text: 'AMAZON RAINFOREST FIRE VIDEOS!! (BRAZIL FOREST FUEGO COMPILATION) #PRAYFORAMAZONIA',
+      link: '/subChapter051?selected=6',
     },
     {
       src: prayAmazon8,
       text: 'ESTO PODEMOS HACER POR EL AMAZONAS / POSIBLES CAUSAS #PRAYFORAMAZONIA',
+      link: '/subChapter051?selected=7',
     },
     {
       src: prayAmazon9,
       text: 'PRAY FOR AMAZONIA',
+      link: '/subChapter051?selected=8',
     },
     {
       src: prayAmazon10,
       text: 'AMAZON RAINFOREST FIRE AND ANIMAL SAD #AMAZONWILDFIRE #PRAYFORAMAZONIA #AMAZON',
+      link: '/subChapter051?selected=9',
     },
   ];
 
@@ -83,16 +93,18 @@ export default function Ch05Index() {
       <div className="row pt-5">
         {
                     prayAmazonFirst5.map(({
-                      src, text,
+                      src, text, link,
                     }, i) => (
                       <div className="col">
-                        <img
-                          src={src}
-                          className="img-fluid"
-                          alt="Responsive image"
-                          height="100"
-                        />
-                        <p className="text-center">{text}</p>
+                        <Link to={link} className="linkHead">
+                          <img
+                            src={src}
+                            className="img-fluid"
+                            alt="Responsive image"
+                            height="100"
+                          />
+                          <p className="text-center">{text}</p>
+                        </Link>
                       </div>
 
                     ))
@@ -101,16 +113,19 @@ export default function Ch05Index() {
       <div className="row pt-4">
         {
                 prayAmazonSecond5.map(({
-                  src, text,
+                  src, text, link,
                 }, i) => (
                   <div className="col">
-                    <img
-                      src={src}
-                      className="img-fluid"
-                      alt="Responsive image"
-                      height="100"
-                    />
-                    <p className="text-center">{text}</p>
+                    <Link to={link} className="linkHead">
+                      {' '}
+                      <img
+                        src={src}
+                        className="img-fluid"
+                        alt="Responsive image"
+                        height="100"
+                      />
+                      <p className="text-center">{text}</p>
+                    </Link>
                   </div>
 
                 ))
